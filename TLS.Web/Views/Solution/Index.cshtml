@@ -1,0 +1,126 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using TLS.Web.Resources
+@inject LocalizationService LocalizationService
+@inject IViewLocalizer ViewLocalizer
+
+
+@section Headers{
+    <link href="~/css/solution-1.css" rel="stylesheet" />
+    <title>@ViewLocalizer["Title"]</title>
+    <title>Solution - Ego</title>
+}
+<div class="solution-page bg-white black-color">
+    <section class="section-talent max-width">
+        <div class="row py-5">
+            <div class="col-lg-1 col-12"></div>
+            <div class="col-lg-8 col-12">
+                <p>NĂNG LỰC</p>
+                <p class="font-64">
+                    Tối ưu <span class="primary-color">thời gian & chi phí</span> đạt
+                    được mục tiêu kinh doanh của doanh nghiệp
+                </p>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-lg-1 col-12"></div>
+            <div class="col-lg-6 col-12">
+                <div class="row align-items-center my-4">
+                    <div class="col-lg-7 col-6">
+                        <p>01</p>
+                        <p class="font-32">
+                            Giải pháp thương hiệu toàn diện cho doanh nghiệp khởi sự - Easy go
+                        </p>
+                    </div>
+                    <div class="col-lg-1 col-1"></div>
+                    <div class="col-lg-3 col-md-2 col-3">
+                        <a href="/giai-phap-marketing-toan-dien/thiet-ke-thuong-hieu-tron-goi-ha-noi">
+                            <img src="~/EgoImages/solution/arrow-circle.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-lg-1 col-0"></div>
+                </div>
+
+                <div class="row align-items-center my-4">
+                    <div class="col-lg-7 col-6">
+                        <p>02</p>
+                        <p class="font-32">
+                            Tối ưu các nền tảng truyền thông sở hữu - Owned Media
+                        </p>
+                    </div>
+                    <div class="col-lg-1 col-1"></div>
+                    <div class="col-lg-3 col-md-2 col-3">
+                        <a href="/giai-phap-marketing-toan-dien/toi-uu-nen-tang-social-marketing-toan-dien">
+                            <img src="~/EgoImages/solution/arrow-circle.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-lg-1 col-0"></div>
+                </div>
+
+                <div class="row align-items-center my-4">
+                    <div class="col-lg-7 col-6">
+                        <p>03</p>
+                        <p class="font-32">
+                            Giải pháp sản xuất video ngắn chuyên sâu - video marketing - Etik Production
+                        </p>
+                    </div>
+                    <div class="col-lg-1 col-1"></div>
+                    <div class="col-lg-3 col-md-2 col-3">
+                        <a href="/giai-phap-marketing-toan-dien/video-marketing-tron-goi-ha-noi">
+                            <img src="~/EgoImages/solution/arrow-circle.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-lg-1 col-0"></div>
+                </div>
+
+                <div class="row align-items-center my-4">
+                    <div class="col-lg-7 col-6">
+                        <p>04</p>
+                        <p class="font-32">Phòng Marketing thuê ngoài</p>
+                    </div>
+                    <div class="col-lg-1 col-1"></div>
+                    <div class="col-lg-3 col-md-2 col-3">
+                        <a href="/giai-phap-marketing-toan-dien/nhan-su-marketing-thue-ngoai-ha-noi">
+                            <img src="~/EgoImages/solution/arrow-circle.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-lg-1 col-0"></div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-12">
+                <img src="~/EgoImages/solution/solution.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class="section-form py-5 max-width">
+        <div class="row gy-3">
+            <div class="col-lg-1 col-12"></div>
+            <div class="col-lg-5 col-12 font-32">
+                Chia sẻ với chúng tôi thông tin để xây dựng gói dịch vụ phù hợp nhất
+                với doanh nghiệp của bạn tại đây =>
+            </div>
+            <div class="col-lg-1 col-12"></div>
+            <div class="col-lg-5 col-12">
+                <div class="form-mobile">
+                    <div class="form-wrapper">
+                        <partial name="_ContactInputForm"></partial>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-search py-5 max-width">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-7">
+                <p class="font-64">Tìm hiểu về Ego agency</p>
+            </div>
+            <div class="col-lg-4 col-1"></div>
+            <div class="col-lg-2 col-4">
+                <a href="" class="py-4">
+                    <img src="~/EgoImages/about/arrow-blue.png" alt="" />
+                </a>
+            </div>
+        </div>
+    </section>
+</div>

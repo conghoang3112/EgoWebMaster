@@ -1,0 +1,224 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer ViewLocalizer
+@section Headers{
+    <link href="~/css/work.css" rel="stylesheet" />
+}
+    <div class="work-page max-width relative">
+        <div class="scroll">
+            <img src="~/EgoImages/scroll.png" alt="" class="circle" />
+            <img src="~/EgoImages/arrow.png" alt="" class="absolute arrow" />
+        </div>
+
+        <section class="header">
+            <div class="row"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear">
+                <div class="col-lg-4 col-md-12 col-12"></div>
+                <div class="col-lg-8 col-md-12 col-12">
+                    <h1>
+                        @ViewLocalizer["work1"]
+                        <br />
+                        <span class="primary-color">@ViewLocalizer["work2"] </span>
+                        <br />
+                        @ViewLocalizer["work3"]
+                    </h1>
+                    <div class="desc-title">
+                        @ViewLocalizer["work4"]
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="text-left d-flex">
+                <div class="d-flex flex-column justify-content-between"
+                 data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear">
+                    <div class="text">
+                        <div class="number">01</div>
+                    <a class="name" href="/du-an/thiet-ke-bo-nhan-dien-thuong-hieu-giao-duc-tieng-anh" style="color:#fff">Esa English</a>
+                        <div class="desc">
+                            @ViewLocalizer["work5"]
+
+                        </div>
+                    </div>
+                    <div class="hide-mobile">
+                        <img src="~/EgoImages/work/a1.png" alt="" />
+                    </div>
+                </div>
+                <div data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear">
+                    <img src="~/EgoImages/work/a2.png" alt="" />
+                </div>
+            </div>
+            <div class="text-right d-flex">
+                <div data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear">
+                    <img src="~/EgoImages/work/evi-behance.jpg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-between"
+                 data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear">
+                    <div class="text">
+                        <div class="number">02</div>
+                    <a class="name" style="color:#fff" href="/du-an/thiet-ke-bo-nhan-dien-trung-tam-tieng-anh">@ViewLocalizer["work6"]</a>
+                        <div class="desc">
+                            @ViewLocalizer["work7"]
+                        </div>
+                    </div>
+                    <div class="hide-mobile">
+                        <img src="~/EgoImages/work/a3.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="text-left d-flex">
+                <div class="d-flex flex-column justify-content-between"
+                 data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear"
+                style="width:50%">
+                    <div class="text">
+                        <div class="number">03</div>
+                    <a class="name" style="color:#fff" href="/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-marketing-da-kenh-nganh-thoi-trang">Simple Closet</a>
+                        <div class="desc">
+                            @ViewLocalizer["work8"]
+                        </div>
+                    </div>
+                    <div class="hide-mobile">
+                        <img src="~/EgoImages/work/b1.png" alt="" />
+                    </div>
+                </div>
+                <div data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear">
+                    <img src="~/EgoImages/work/simple.jpg" alt="" />
+                </div>
+            </div>
+            <div class="text-right d-flex">
+                <div data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear"
+               >
+                    <img src="~/EgoImages/work/shn_event.jpg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-between"
+                 data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear"
+                style="width:60%">
+                    <div class="text">
+                        <div class="number">04</div>
+                        <a class="name" href="/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-remarketing-su-kien-nganh-vat-lieu-xay-dung" style="color:#fff">@ViewLocalizer["work9"]</a>
+                        <div class="desc">
+                            @ViewLocalizer["work10"]
+                        </div>
+                    </div>
+                    <div class="hide-mobile">
+                        <img src="~/EgoImages/work/b3.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="text-left d-flex"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear">
+                <div class="d-flex flex-column justify-content-between">
+                    <div class="text">
+                        <div class="number">05</div>
+                        <a class="name" href="/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-social-marketing-nganh-vat-lieu-xay-dung" style="color:#fff">@ViewLocalizer["work11"]</a>
+                        <div class="desc">
+                            @ViewLocalizer["work12"]
+                        </div>
+                    </div>
+                    <div class="hide-mobile">
+                        <img src="~/EgoImages/work/shn-social.jpg" alt="" />
+                    </div>
+                </div>
+                <div style="max-width:745px">
+                    <img src="~/EgoImages/home/shn_social.jpg" alt="" />
+                </div>
+            </div>
+            <div class="text-right d-flex">
+                <div data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear">
+                    <img src="~/EgoImages/work/c1.png" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-between"
+                 data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear"
+                style="width:50%">
+                    <div class="text">
+                        <div class="number">06</div>
+                        <a class="name" href="/du-an/social-marketing-nganh-my-pham" style="color:#fff">@ViewLocalizer["work13"]</a>
+                        <div class="desc">
+                            @ViewLocalizer["work14"]
+
+                        </div>
+                    </div>
+                    <div class="hide-mobile">
+                        <img src="~/EgoImages/work/a4.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="text-left d-flex">
+                <div class="d-flex flex-column justify-content-between"
+                 data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear"
+                style="width:80%">
+                    <div class="text">
+                        <div class="number">07</div>
+                        <a class="name" href="/du-an/thiet-ke-nhan-dien-thuong-hieu-va-bao-bi-san-pham-nganh-my-pham" style="color:#fff">@ViewLocalizer["work15"]</a>
+                        <div class="desc">
+                            @ViewLocalizer["work16"]
+                        </div>
+                    </div>
+                    <div class="hide-mobile">
+                        <img src="~/EgoImages/work/d1.png" alt="" />
+                    </div>
+                </div>
+                <div data-aos="fade-up"
+                 data-aos-duration="500"
+                 data-aos-easing="linear">
+                    <img src="~/EgoImages/work/mejarl.jpg" alt="" />
+                </div>
+            </div>
+            <div class="text-right d-flex">
+                <div data-aos="fade-up"
+                     data-aos-duration="500"
+                     data-aos-easing="linear">
+                    <img src="~/EgoImages/work/tictop.jpg" alt="" style="max-width: 1345px"/>
+                </div>
+                <div class="d-flex flex-column justify-content-between"
+                     data-aos="fade-up"
+                     data-aos-duration="500"
+                     data-aos-easing="linear"
+                     style="width:50%">
+                    <div class="text">
+                        <div class="number">08</div>
+                    <a class="name" href="/du-an/tictop" style="color:#fff">Tictop app</a>
+                        <div class="desc">
+                        Thế hệ ứng dụng mới - Tích hợp quản lý và trao đổi công việc linh hoạt
+                        </div>
+                    </div>
+                    <div class="hide-mobile">
+                        <img src="~/EgoImages/work/tictop2.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    @section Scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        gsap.to(".scroll .circle", { rotation: 360, transformOrigin: "center", ease: "none", duration: 15, repeat: -1 });
+    </script>
+}   

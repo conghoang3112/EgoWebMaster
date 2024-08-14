@@ -1,0 +1,25 @@
+﻿@using TLS.Web.Models
+@model NavigationModel
+@if (Model != null)
+{
+    <section class="section-pagination">
+        <div class="row">
+            <div class="col-6"></div>
+            <div class="col-6">
+                <a href="@Model.NextPagePath" class="next-project d-flex align-items-center gap-4">
+                    <div>Next project</div>
+                    <div style="">
+                        <img src="~/EgoImages/arrow-right.png" alt="" />
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <a href="@Model.PreviousPagePath" class="prev-project d-flex align-items-center gap-4">
+            <div >
+                <img src="~/EgoImages/arrow-right.png" alt="" />
+            </div>
+            <div>Prev project</div>
+        </a>
+    </section>
+}

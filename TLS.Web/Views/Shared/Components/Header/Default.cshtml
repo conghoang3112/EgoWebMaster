@@ -1,0 +1,106 @@
+﻿@using TLS.Web.Resources
+@inject LocalizationService LocalizationService
+<!-- mobile -->
+<div class="d-flex justify-content-end menu-mobile">
+    <div class="d-flex justify-content-between align-items-center"
+         style="width: 100%; padding: 20px 20px 50px">
+        <button class="sidebar-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 width="29"
+                 height="13"
+                 viewBox="0 0 29 13">
+                <g id="Group_19" data-name="Group 19" transform="translate(-37 -29)">
+                    <g id="Group_18" data-name="Group 18" transform="translate(0 2)">
+                        <rect id="Rectangle_12"
+                              data-name="Rectangle 12"
+                              width="29"
+                              height="3"
+                              transform="translate(37 27)"
+                              fill="#fff" />
+                        <rect id="Rectangle_13"
+                              data-name="Rectangle 13"
+                              width="29"
+                              height="3"
+                              transform="translate(37 32)"
+                              fill="#fff" />
+                        <rect id="Rectangle_14"
+                              data-name="Rectangle 14"
+                              width="29"
+                              height="3"
+                              transform="translate(37 37)"
+                              fill="#fff" />
+                    </g>
+                </g>
+            </svg>
+        </button>
+        <div style="width: 70px">
+            <a href="/">
+                <img src="~/EgoImages/logo.png" alt="" style="width: 100%" />
+            </a>
+        </div>
+    </div>
+    
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <button class="close-btn">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="28.536"
+                     height="28.536"
+                     viewBox="0 0 28.536 28.536">
+                    <g id="Group_32"
+                       data-name="Group 32"
+                       transform="translate(-389.232 -24.232)">
+                        <line id="Line_1"
+                              data-name="Line 1"
+                              x2="25"
+                              y2="25"
+                              transform="translate(391 26)"
+                              fill="none"
+                              stroke="#000"
+                              stroke-width="5" />
+                        <line id="Line_2"
+                              data-name="Line 2"
+                              y1="25"
+                              x2="25"
+                              transform="translate(391 26)"
+                              fill="none"
+                              stroke="#000"
+                              stroke-width="5" />
+                    </g>
+                </svg>
+            </button>
+        </div>
+        <div>
+            <ul class="links">
+                <li><a href="/giai-phap-marketing-toan-dien">@LocalizationService.GetLocalizedString("menu6")</a></li>
+                <li><a href="/">@LocalizationService.GetLocalizedString("menu1")</a></li>
+                <li><a href="/branding-markeitng-agency-hanoi">@LocalizationService.GetLocalizedString("menu2")</a></li>
+                <li><a href="/du-an">@LocalizationService.GetLocalizedString("menu3")</a></li>
+                <li><a href="/kien-thuc-marketing-branding">@LocalizationService.GetLocalizedString("menu4")</a></li>
+                <li><a href="/contact">@LocalizationService.GetLocalizedString("menu5")</a></li>
+            </ul>
+            <div class="switch-btn-mobile">
+                <button class="change-lg-btn" style="visibility: hidden">ENG</button>
+            </div>
+        </div>
+    </aside>
+</div>
+
+<!-- PC -->
+<section class="logo-ego d-flex justify-content-end"
+         style="padding: 0 80px; max-width: 1440px; margin: 4rem auto">
+    <a href="/"><img src="~/EgoImages/logo.png" alt="" /></a>
+</section>
+<div class="menu fixed max-width">
+    <ul>
+        <li><a href="/branding-markeitng-agency-hanoi">@LocalizationService.GetLocalizedString("menu2")</a></li>
+        <li><a href="/du-an">Dự án</a></li>
+        <li><a href="/giai-phap-marketing-toan-dien">@LocalizationService.GetLocalizedString("menu6")</a></li>
+        <li><a href="/kien-thuc-marketing-branding">@LocalizationService.GetLocalizedString("menu4")</a></li>
+        <li><a href="/contact">@LocalizationService.GetLocalizedString("menu5")</a></li>
+    </ul>
+    <div class="switch-btn" style="visibility: hidden">
+        <button class="change-lg-btn2">ENG</button>
+    </div>
+    <partial name="_SetLanguagePartial"></partial>
+</div>

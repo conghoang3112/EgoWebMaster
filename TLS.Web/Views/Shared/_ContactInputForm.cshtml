@@ -1,0 +1,50 @@
+﻿@using TLS.Web.Resources;
+@inject LocalizationService LocalizationService
+
+<form id="contact-form">
+    <label for="name">@LocalizationService.GetLocalizedString("contact-name")</label>
+    <input type="text" id="name" name="Name" />
+    <br />
+    <label for="phone">@LocalizationService.GetLocalizedString("contact-phone") </label>
+    <input type="phone" id="phone" name="PhoneNumber" />
+    <br />
+    <label for="name">@LocalizationService.GetLocalizedString("contact-position") </label>
+    <select id="name" name="Position" class="w-100 mb-3">
+        <option value="" selected disabled hidden>Chọn chức vụ</option>
+        <option value="Chủ doanh nghiệp/ Founder/ Cofounder">Chủ doanh nghiệp/ Founder/ Cofounder</option>
+        <option value="CEO">CEO</option>
+        <option value="Marketing manager">Marketing manager</option>
+    </select>
+    <br />
+    <label for="name">@LocalizationService.GetLocalizedString("contact-email")</label>
+    <input type="email" id="name" name="email" />
+    <br />
+    <label for="name">@LocalizationService.GetLocalizedString("contact-company")</label>
+    <input type="email" id="name" name="Company" />
+    <br />
+    <label for="business">@LocalizationService.GetLocalizedString("contact-business")</label><br />
+    
+    <select id="business" name="BusinessAreas" class="w-100 mb-3">
+        <option value="" selected disabled hidden>Chọn ngành nghề kinh doanh</option>
+        <option value="Giáo dục">Giáo dục</option>
+        <option value="Thời trang">Thời trang</option>
+        <option value="Thẩm mỹ - Mỹ phẩm">Thẩm mỹ - Mỹ phẩm</option>
+        <option value="Công nghệ">Công nghệ</option>
+        <option value="Gia dụng">Gia dụng</option>
+        <option value="B2B">B2B</option>
+    </select>
+    <br />
+    <label for="business">@LocalizationService.GetLocalizedString("contact-solution-of-interest")</label><br />
+    <select  id="business" name="SolutionOfInterest" class="w-100 mb-3">
+        <option value="" selected disabled hidden>Chọn giải pháp quan tâm</option>
+        <option value="Giải pháp thương hiệu toàn diện cho doanh nghiệp khởi sự - Easy go">Giải pháp thương hiệu toàn diện cho doanh nghiệp khởi sự - Easy go</option>
+        <option value="Tối ưu các nền tảng truyền thông sở hữu - Owned Media">Tối ưu các nền tảng truyền thông sở hữu - Owned Media</option>
+        <option value="Giải pháp sản xuất video ngắn chuyên sâu - video marketing - Etik Production">Giải pháp sản xuất video ngắn chuyên sâu - video marketing - Etik Production</option>
+        <option value="Giải pháp phòng maketing thuê ngoài">Giải pháp phòng maketing thuê ngoài</option>
+    </select>
+    <br />
+    <input type="hidden" name="Purpose" id="purpose" value="Contact"/>
+    <div class="btn-submit">
+        <input type="button" id="contact_btn_submit" value="Submit" />
+    </div>
+</form>

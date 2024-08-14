@@ -1,0 +1,86 @@
+﻿@{
+    Layout = "~/Views/Shared/_PlanLayout.cshtml";
+}
+@section Headers{
+    <title>Xác nhận triển khai </title>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JMCPN312Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2JMCPN312Z');
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1175544837160065');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1175544837160065&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+}
+<div class="lg:bg-[url('/EgoImages/plan/banner.png')] bg-[url('/EgoImages/plan/banner-mobile.png')] bg-cover bg-center bg-center">
+    <div class="max-w-[1360px] lg:mx-auto mx-5 pt-[80px] lg:pb-[250px] pb-[350px]">
+        <div class="lg:text-[66px] text-4xl font-[700] leading-none lg:max-w-[480px] primary-color my-6 darker-grotesque-font">
+            Tiến hành Khảo sát & phân tích dữ liệu
+        </div>
+        <div class="lg:flex grid grid-cols-2 gap-5">
+            <div class="col-span-1">
+                <img src="/EgoImages/plan/payment.png" />
+            </div>
+            <div class="inter-font max-w-md lg:font-[800] font-medium lg:text-md text-[14px] lg:mt-5 mt-3">
+                <div>
+                    Để bắt đầu khảo sát tình trạng marketing doanh nghiệp & phân
+                    tích dữ liệu ngành hàng.
+                </div>
+                <div class="lg:mt-4 mt-0">
+                    Chúng tôi cần bạn thanh toán phí ban đầu :
+                </div>
+                <div class="text-xl font-[900] primary-color">500.000 VNĐ</div>
+                <br />
+                <div>
+                    Số tiền này sẽ được khấu trừ trực tiếp vào giá dịch vụ của bản
+                    hoạch định sau khi nghiệm thu.
+                </div>
+                <div class="lg:block hidden">
+                    <div class="text-xl font-[900] primary-color mt-5 mb-3">
+                        Hoàn tất thanh toán
+                    </div>
+                    <div class="lg:text-left">
+                        Vui lòng gửi ảnh cap màn hình thanh toán thành công đến Zalo
+                        Ego Agency. Anh/chị sẽ nhận được xác nhận thanh toán từ Ego
+                    </div>
+
+                    <a href="https://zalo.me/2386571903158749416"
+                       class="lg:w-auto w-full inline-flex rounded-3xl bg-indigo-600 px-6 py-2 mt-5 text-xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-[#031C72] to-[#3058E7]">GỬI THÔNG TIN</a>
+                </div>
+            </div>
+        </div>
+        <div class="block lg:hidden col-span-1">
+            <div class="text-xl font-[900] primary-color mt-5 mb-3 text-center">
+                Hoàn tất thanh toán
+            </div>
+            <div class="text-center">
+                Vui lòng gửi ảnh cap màn hình thanh toán thành công đến Zalo Ego
+                Agency. Anh/chị sẽ nhận được xác nhận thanh toán từ Ego
+            </div>
+
+            <a href="https://zalo.me/2386571903158749416"
+               class="w-full justify-center inline-flex rounded-3xl bg-indigo-600 px-6 py-2 mt-5 text-xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-[#031C72] to-[#3058E7]">GỬI THÔNG TIN</a>
+        </div>
+    </div>
+</div>

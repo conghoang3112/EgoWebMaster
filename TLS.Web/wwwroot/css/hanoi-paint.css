@@ -1,0 +1,84 @@
+﻿/* common */
+img {
+    width: 100%;
+    display: block;
+}
+
+section {
+    margin: 4rem 0;
+}
+
+.header {
+    font-size: 18px;
+}
+
+    .header h1 {
+        font-size: 98px;
+    }
+
+    .header .title {
+        margin-bottom: 2rem;
+    }
+
+/* banner */
+.banner .text {
+    font-size: 18px;
+    margin: 0 0 6rem 0;
+}
+
+/* three-product */
+.three-product .text {
+    max-width: 80%;
+    font-size: 18px;
+    margin: 10rem 0 8rem auto;
+}
+
+/* two-product */
+.two-product .row div:nth-child(2) {
+    margin-top: 30%;
+}
+
+/* two-img */
+.two-img div {
+    max-width: 65%;
+    margin: 0 0 0 auto;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    /* common */
+    section {
+        margin: 2rem 0;
+    }
+
+    .header {
+        font-size: 12px;
+    }
+
+        .header h1 {
+            font-size: 30px;
+            margin: 0 0 3rem 0;
+        }
+
+        .header .title {
+            font-size: 18px;
+        }
+
+    /* banner */
+    .banner .text {
+        font-size: 12px;
+    }
+
+    /* three-product */
+    .three-product .text {
+        max-width: 100%;
+        font-size: 12px;
+        margin: 4rem 0 0 0;
+    }
+
+    /* two-img */
+    .two-img div {
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+}

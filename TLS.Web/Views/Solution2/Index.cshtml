@@ -1,0 +1,318 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using TLS.Web.Resources
+@inject LocalizationService LocalizationService
+@inject IViewLocalizer ViewLocalizer
+
+
+@section Headers{
+    <link href="~/css/solution-2.css" rel="stylesheet" />
+    <title>@ViewLocalizer["Title"]</title>
+}
+<div class="solution-2">
+    <section class="section-banner">
+        <img class="w-100 h-100 banner-desktop" src="~/EgoImages/solution-2/banner.png" />
+        <img class="w-100 h-100 banner-mobile" src="~/EgoImages/solution-2/banner-mobile.jpg" />
+    </section>
+    <div class="banner-mobile max-width my-3">
+        <p>
+            Ego Agency giới thiệu gói giải pháp thương hiệu tổng thể, đưa ra chiến lược thương hiệu & tiếp thị sáng tạo từ những bước đầu kinh doanh.
+        </p>
+        <p>
+            Easy Go định hướng thương hiệu trong dài hạn. Chúng tôi xây dựng hình ảnh thương hiệu và đưa ra chiến lược tiếp cận thị trường phù hợp cho doanh nghiệp khởi sự.
+        </p>
+        <p>
+            Nhằm đạt được mục tiêu kinh doanh sớm nhất, hiệu quả nhất, tối ưu chi phí cho doanh nghiệp.
+        </p>
+    </div>
+
+    <section class="section-video">
+        <div class="max-width">
+            <div class="video-wrapper">
+                <iframe width="100%" src="https://www.youtube.com/embed/OSX8rlw8lGo?si=Csao3aD-0s6Y3HpR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <p class="font-64 fw-bolder">
+                        Giải pháp này chắc chắn phù hợp với bạn nếu:
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="d-flex align-items-center gap-4">
+                        <p class="font-120 primary-color">01</p>
+                        <p>Bạn bắt đầu kinh doanh và đang ấp ủ thật nhiều ý tưởng, kế hoạch nhưng vẫn mơ hồ lối đi cho thương hiệu </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-4">
+                        <p class="font-120 primary-color">02</p>
+                        <p>
+                            Bạn cần được cung cấp một tầm nhìn toàn diện cho sự phát triển của thương hiệu. Thông tin sâu sắc về thị trường, đối thủ, người tiêu dùng. Để có thể lựa chọn thế mạnh cạnh tranh chiến lược của thương hiệu.
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-4">
+                        <p class="font-120 primary-color">03</p>
+                        <p>
+                            Bạn cần một thương hiệu ấn tượng và chuyên nghiệp không chỉ ở vẻ ngoài mà còn đồng nhất về trải nghiệm của khách hàng trọng tâm.
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-4">
+                        <p class="font-120 primary-color">04</p>
+                        <p>
+                            Và bạn cần một chiến lược thương hiệu được thực thi đầy tâm huyết
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-width py-5">
+        <div class="bg-white black-color fs-5 five-math">
+            <div class="row mb-4">
+                <div class="col-lg-7 col-12">
+                    <p class="font-64 fw-bolder mb-5">
+                        EASY GO giải quyết giúp bạn 5 bài toán
+                    </p>
+                </div>
+            </div>
+            <div class="row gx-5">
+                <div class="col-lg-4 col-12">
+                    <p class="mb-1">
+                        Đóng góp sự quan sát toàn diện cho doanh nghiệp
+                    </p>
+                    <div>- Thị trường</div>
+                    <div>- Đối thủ</div>
+                    <p>- Người tiêu dùng</p>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <div>Đề xuất chiến lược thương hiệu & Đồng hành thực thi.</div>
+                    <div>Định hướng thẩm mỹ thương hiệu</div>
+                    <div>- Nhận diện thương hiệu</div>
+                    <p> - Sản phẩm (Nhãn hiệu/ bao bì)</p>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <p>
+                        Sử dụng nguồn lực hiệu quả .Tiết kiệm thời gian
+                    </p>
+                </div>
+            </div>
+
+            <div class="row gx-5 mt-5">
+                <div class="col-lg-2 col-12"></div>
+                <div class="col-lg-4 col-12">
+                    <p>
+                        Xây dựng hệ thống nền tảng truyền thông sở hữu & chiến lược trên từng kênh
+                    </p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <p>
+                        Đồng hành hướng dẫn quản trị thương hiệu
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img class="w-100" src="~/EgoImages/solution-2/artboard.png" />
+    </section>
+
+    <section class="section-implement max-width relative">
+        <div class="font-64 my-5 title">Bằng 3 bước triển khai chi tiết</div>
+        <div class="bg-white step">
+            <div class="card-step black-color">
+                <div class="font-120 primary-color">01</div>
+                <p class="font-32">Hoàn thiện sản phẩm/dịch vụ</p>
+                <div class="">
+                    <p class="mb-1">Xác định lợi thế cạnh tranh</p>
+                    <p class="mb-1">Xác định nhu cầu khách hàng</p>
+                    <p class="mb-1">Xác định định vị</p>
+                    <p class="mb-1">Mục tiêu kinh doanh</p>
+                </div>
+                <div class="image-ideal">
+                    <img src="~/EgoImages/solution-2/ideal.png" />
+                </div>
+            </div>
+
+            <div class="card-step black-color">
+                <div class="font-120 primary-color">02</div>
+                <p class="font-32">Định hình thương hiệu</p>
+                <div class="">
+                    <p class="mb-1">Logo</p>
+                    <p class="mb-1">Visual identity</p>
+                    <p class="mb-1">Brand guideline</p>
+                    <p class="mb-1">Brand concept</p>
+                </div>
+                <div class="image-ideal2">
+                    <img src="~/EgoImages/solution-2/ideal2.png" />
+                </div>
+            </div>
+
+            <div class="card-step black-color">
+                <div class="font-120 primary-color">03</div>
+                <p class="font-32">Chiến lược Marketing & thực thi</p>
+
+                <div class="">
+                    <p class="mb-1">Owned Media</p>
+                    <p class="mb-1">Facebook</p>
+                    <p class="mb-1">Instagram</p>
+                    <p class="mb-1">Tiktok</p>
+                    <p class="mb-1">Landingpage</p>
+                </div>
+                <div class="image-ideal3">
+                    <img src="~/EgoImages/solution-2/ideal3.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white sectioc-idea">
+        <div class="max-width">
+            <div class="font-64 mb-5 black-color">
+                Những dự án tâm huyết & Sáng tạo
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6 black-color">
+                    <a href="https://egocreative.co/du-an/thiet-ke-bo-nhan-dien-trung-tam-tieng-anh" target="_blank" class="black-color">
+                        <p>Thiết kế thương hiệu giáo dục trẻ em - EVI ENGLISH</p>
+                        <img class="w-100" src="~/EgoImages/solution-2/evi.jpg" />
+                    </a>
+                </div>
+                <div class="col-lg-6 black-color">
+                    <a href="https://egocreative.co/du-an/thiet-ke-bo-nhan-dien-thuong-hieu-giao-duc-tieng-anh" target="_blank" class="black-color">
+                        <p>Thiết kế thương hiệu luyện thi IELTS - ESA ENGLISH</p>
+                        <img class="w-100" src="~/EgoImages/solution-2/esa.jpg" />
+                    </a>
+                </div>
+                <div class="col-lg-6 black-color">
+                    <a href="https://egocreative.co/du-an/thiet-ke-nhan-dien-thuong-hieu-va-bao-bi-san-pham-nganh-my-pham" target="_blank" class="black-color">
+                        <p>Thiết kế thương hiệu mỹ phẩm - MEJAR</p>
+                        <img class="w-100" src="~/EgoImages/solution-2/mejar.jpg" />
+                    </a>
+                </div>
+                <div class="col-lg-6 black-color">
+                    <a href="https://egocreative.co/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-social-marketing-nganh-vat-lieu-xay-dung" target="_blank" class="black-color">
+                        <p>Thiết kế thương hiệu vật liệu xây dựng - Sơn Hà Nội</p>
+                        <img class="w-100" src="~/EgoImages/solution-2/sonHN.jpg" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-width about-customer">
+        <p class="font-64 title">Khách hàng nói về chúng tôi</p>
+        <div class="about-customer-talk">
+            <div class="card-customer">
+                <div class="mb-3">Cảm ơn EGO agency đã tư vấn về ngân sách rất hợp lý cho giai đoạn đầu của doanh nghiệp, chuyên nghiệp trong nội dung và thiết kế. </div>
+                <div class="d-flex gap-4 align-items-center">
+                    <div class="image">
+                        <img class="w-100 h-100"
+                             src="~/EgoImages/solution-2/nam.png" />
+                    </div>
+                    <div class="info">
+                        <div>Mr Phương Nam</div>
+                        <div>Founder - CEO Evi English</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-customer">
+                <div class="mb-3">Ego tư vấn về thương hiệu và các chiến lược đầy tâm huyết. Rất bài bản và có chuyên môn, thiết kế đẹp mắt, nội dung thu hút. </div>
+                <div class="d-flex gap-4 align-items-center">
+                    <div class="image">
+                        <img class="w-100 h-100"
+                             src="~/EgoImages/solution-2/giap.png" />
+                    </div>
+                    <div class="info">
+                        <div>Mr Trọng Giáp</div>
+                        <div>Founder - Ceo ESA English</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-customer">
+                <div class="mb-3">
+                    Chuyên nghiệp, thân thiện và chủ động là những gì chị cảm nhận ở đội ngũ Ego Agency. Trong quá trình làm việc và xây dựng bộ nhận diện thương hiệu thì chị cũng học được từ các bạn rất nhiều kiến thức về thương hiệu và có ý thức hơn trong xây dựng chiến lược kênh bán trên digital .
+                </div>
+                <div class="d-flex gap-4 align-items-center">
+                    <div class="image">
+                        <img class="w-100 h-100"
+                             src="~/EgoImages/solution-2/dung.png" />
+                    </div>
+                    <div class="info">
+                        <div>Ms Thùy Dung</div>
+                        <div>CEO Mejar Cosmetic UK</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="we-want max-width py-5">
+        <div class="row">
+            <div class="col-lg-7 col-12">
+                <div class="font-64 mb-3">
+                    Các bước hiện thực hóa mục tiêu kinh doanh của bạn
+                </div>
+            </div>
+        </div>
+        <div class="aproach d-flex pb-5">
+            <div class="aproach-list d-flex">
+                <div class="aproach-item">
+                    <div class="title">Meeting</div>
+                    <div class="desc">
+                        Một cuộc họp khởi động là nền tảng để tất cả các bên thể hiện
+                        thiện chí hợp tác và thiết lập tiến trình.
+                    </div>
+                </div>
+                <div class="aproach-item">
+                    <div class="title">Sollution</div>
+                    <div class="desc">
+                        Sau các câu hỏi được đào sâu, chúng tôi có thể đã đưa ra được
+                        giải pháp tổng quát cho vấn đề của doanh nghiệp bạn.
+                    </div>
+                </div>
+                <div class="aproach-item">
+                    <div class="title">Brief</div>
+                    <div class="desc">
+                        Chúng tôi tóm lược toàn bộ thông tin dự án trong một tài liệu.
+                        Đây là cơ sở dẫn lối cho cả hai bên trong suốt quá trình hợp tác
+                        về sau.
+                    </div>
+                </div>
+                <div class="aproach-item">
+                    <div class="title bg-primary" style="color: #fff">Contract</div>
+                    <div class="desc">
+                        Trước khi chính thức hợp tác, mọi thông tin về thanh toán, phạm
+                        vi dự án, các gói dịch vụ, khung thời gian,... sẽ được thống
+                        nhất minh bạch trong hợp đồng.
+                    </div>
+                </div>
+                <div class="aproach-item">
+                    <div class="title">Actions</div>
+                    <div class="desc">
+                        Cùng đội nhóm, chúng tôi bắt tay vào đưa ra những ý tưởng không
+                        giới hạn. Sau cùng, những ý tưởng phù hợp nhất với “đề bài” sẽ
+                        được chọn để chuẩn bị cho bước tiếp theo.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-form py-5 bg-white">
+        <div class="max-width py-5">
+            <div class="row">
+                <div class="col-lg-6 col-12 font-32 black-color mb-4">
+                    Bắt đầu bằng việc chia sẻ với chúng tôi
+                    thông tin để có tư vấn phù hợp nhất với
+                    bạn tại đây ->
+                </div>
+                <div class="col-lg-1 col-12"></div>
+                <div class="col-lg-5 col-12">
+                    <div class="form-mobile">
+                        <div class="form-wrapper">
+                            <partial name="_ContactInputForm"></partial>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,53 @@
+﻿@using TLS.ViewModels.News
+@model NewsDetailVm
+@section Headers{
+    <meta property="og:title" content="@Model.MetaTitle"/>
+    <meta property="og:description" content="@Model.MetaDescription"/>
+    <meta property="og:image" content="@Model.ThumnailImageUrl"/>
+    <meta property="og:url" content="@Model.DetailLink"/>
+    <link href="~/css/blog-detail.css" rel="stylesheet" />
+    
+}
+    <div class="home-page relative">
+
+
+        <section class="max-width banner relative">
+
+            <div class="blog-content">
+                <div class="news-header">
+                    <div class="d-flex justify-content-between mb-5">
+                        <div>
+                            <a href="/kien-thuc-marketing-branding">Blogs</a> > <span>@Model.Title</span>
+                        </div>
+                        <div>
+                            <span>
+                                @Model.CreatedDate.ToLocalTime()
+                            </span>
+                        </div>
+                    </div>
+                    <h1 class="mb-4">
+                        @Model.Title
+                    </h1>
+                </div>
+                <div class="news-body">
+                    <p style="color:gray">@Model.ShortDescription</p>
+                    <div class="mt-4">@Html.Raw(Model.Content)</div>
+                </div>
+                <div class="news-footer mt-4">
+                    <div class="float-start">
+                    @if (Model.Tags != null)
+                    {
+                        foreach (var tag in Model.Tags)
+                        {
+                            <a href="@("/kien-thuc-marketing-branding?tag="+tag)" class="blog-tag">@tag</a>
+                        }
+                    }
+
+                </div>
+
+                <strong class="float-end ">@Model.Author</strong>
+            </div>
+        </div>
+    </section>
+
+</div>

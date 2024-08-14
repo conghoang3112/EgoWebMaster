@@ -1,0 +1,72 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using TLS.Web.Models
+@inject IViewLocalizer ViewLocalizer
+
+@section Headers{
+    <link href="~/css/hanoi-paint2.css" rel="stylesheet" />
+    <title>Ha Noi Paint - Ego</title>
+}
+<div class="hanoi2-page max-width">
+    <section class="header">
+        <div class="row"
+               data-aos="fade-up"
+               data-aos-duration="500"
+               data-aos-easing="linear"
+        >
+            <div class="col-lg-5 col-md-12 col-12"></div>
+            <div class="col-lg-7 col-md-12 col-12">
+                <h1>Ha Noi paint</h1>
+            </div>
+        </div>
+        <div class="row"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+        >
+                <div class="col-lg-5 col-md-12 col-12 padding-left">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 col-6">
+                        <div class="title">SERVICES</div>
+                    </div>
+                    <div class="col-lg-12 col-md-6 col-6">
+                        <div class="desc">
+                            <p>Branding</p>
+                            <p>Campain</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-12">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 col-6">
+                        <div class="title">DESCRIPTION</div>
+                    </div>
+                    <div class="col-lg-12 col-md-6 col-6">
+                        <div class="desc">
+                            <p>
+                                    @ViewLocalizer["hnpb1"]
+                                
+                                <br/>
+                                    @ViewLocalizer["hnpb2"]
+                               
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-up"
+             data-aos-duration="600"
+             data-aos-easing="linear"
+    >
+        <img src="~/EgoImages/hanoi_paint/hanoi2.png" alt="" />
+    </section>
+        <div class="max-width">
+            @await Html.PartialAsync("_PageNavigation",new NavigationModel(){
+        PreviousPagePath = "/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-remarketing-su-kien-nganh-vat-lieu-xay-dung",
+        NextPagePath = "/du-an/social-marketing-nganh-my-pham"
+        })
+        </div>
+</div>

@@ -1,0 +1,146 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using TLS.Web.Resources
+@inject LocalizationService LocalizationService
+@inject IViewLocalizer ViewLocalizer
+
+
+@section Headers{
+    <link href="~/css/solution-4.css" rel="stylesheet" />
+    <title>@ViewLocalizer["Title"]</title>
+}
+<div class="solution-4">
+    <section class="section-banner">
+        <div class="max-width h-100">
+            <div class="row align-items-center h-100">
+                <div class="col-lg-6 col-12">
+                    <p class="font-64 mb-4">Giải pháp phòng marketing thuê ngoài</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-effective max-width">
+        <div class="row my-5">
+            <div class="col-lg-8 col-12">
+                <p class="font-64 fw-bolder title">
+                    HIỆU QUẢ TỐI ĐA CÙNG DOANH NGHIỆP VƯỢT BÃO
+                </p>
+            </div>
+            <div class="col-lg-4 col-12"></div>
+            <div class="col-lg-6 col-12"></div>
+            <div class="col-lg-6 col-12 mt-5">
+                Là một doanh nghiệp trẻ, chúng tôi hiểu được tầm quan trọng của
+                marketing trong hoạt động kinh doanh của doanh nghiệp. Tuy nhiên để
+                vận hành một phòng marketing với đầy đủ chức năng đòi hỏi một chi
+                phí tốn kém, chưa kể đến những khó khăn trong việc tuyển dụng và
+                quản trị nhân sự, hiệu suất công việc không đảm bảo.
+            </div>
+        </div>
+    </section>
+
+    <section class="section-suitable bg-white black-color py-5">
+        <div class="max-width py-5">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <p class="font-64 fw-bolder">
+                        Giải pháp này chắc chắn phù hợp với doanh nghiệp nếu:
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 mt-5">
+                    <div class="d-flex align-items-center gap-4">
+                        <p class="font-120 primary-color">01</p>
+                        <p>
+                            Doanh nghiệp cảm thấy bộ máy nhân sự cồng kênh: Cơ cấu phòng ban lộn xộn, khó quản lý và đánh giá. Phòng marketing nội bộ trở thành gánh nặng cho doanh nghiệp
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-4">
+                        <p class="font-120 primary-color">02</p>
+                        <p>
+                           Doanh nghiệp nhận thấy chi phí tốn kém : Chi phí cho việc tuyển dụng, lương thưởng, vận hành phòng marketing nội bộ chiếm tỉ trọng lớn trong cơ cấu chi phí
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-4">
+                        <p class="font-120 primary-color">03</p>
+                        <p>
+                            Doanh nghiệp thấy hiệu suất thấp : Việc liên tục thay đổi nhân sự dẫn tới các tốn kém về chi phí hiệu suất. Hoạt động Marketing không đo lường được hiệu quả.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-width py-5">
+            <div class="row">
+                <div class="col-lg-7 col-12">
+                    <p class="font-64 fw-bolder mb-5">
+                        Giải pháp phòng marketing thuê ngoài giúp doanh nghiệp giải quyết 3 bài toán
+                    </p>
+                </div>
+            </div>
+            <div class="row gx-5">
+                <div class="col-lg-4 col-12">
+                    <div class="">
+                        <div class="font-120">01</div>
+                        <p class="mb-4">Tối ưu chi phí</p>
+                        <p>
+                            Chi phí cho việc thuê ngoài phòng marketing chỉ bằng một phần
+                            so với chi phí cho việc vận hành phòng marketing nội bộ. Mỗi
+                            đồng chi phí đều có hiệu quả tương ứng và được đo lường rõ
+                            ràng.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12">
+                    <div class="">
+                        <div class="font-120">02</div>
+                        <p class="mb-4">Tối ưu nhân sự</p>
+                        <p>
+                            Chúng tôi cung cấp các vị trí linh hoạt theo nhu cầu hoạt động
+                            của doanh nghiệp. Tinh gọn chi phí đầu tư hàng tháng, đảm bảo
+                            tối đa về mặt hiệu suất công việc
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-12">
+                    <div class="">
+                        <div class="font-120">03</div>
+                        <p class="mb-4">Tối ưu hiệu suất</p>
+                        <p>
+                            Nâng cao tỷ lệ chuyển đổi của từng kênh và từng điểm chạm, dựa
+                            trên việc điều chỉnh nhanh chóng các chiến lược và phương án
+                            triển khai.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-width py-5">
+            <p class="font-64">Quy trình triển khai</p>
+            <div class="py-5 diagram-desktop">
+                <img class="w-100" src="~/EgoImages/solution-4/step.png" />
+            </div>
+            <div class="py-5 diagram-mobile">
+                <img class="w-100" src="~/EgoImages/solution-4/diagram.png" />
+            </div>
+        </div>
+    </section>
+
+    <section class="section-form py-5 max-width">
+        <div class="row gy-3">
+            <div class="col-lg-6 col-12 font-64">
+                Chúng tôi quan tâm đến dự án & doanh nghiệp của bạn
+            </div>
+            <div class="col-lg-1 col-12"></div>
+            <div class="col-lg-5 col-12">
+                <div class="form-mobile">
+                    <div class="form-wrapper">
+                        <partial name="_ContactInputForm"></partial>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

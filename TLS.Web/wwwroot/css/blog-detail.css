@@ -1,0 +1,36 @@
+﻿.blog-content {
+    margin: 50px 200px;
+}
+
+    .blog-content img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.blog-tag {
+    color: #fff;
+    background-color: #9b9b9b;
+    padding: 5px;
+    border-radius: 0.47rem;
+    margin-right: 5px;
+}
+
+.footer {
+    overflow-x: initial !important;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-content {
+        margin: 50px 0px;
+    }
+
+    .news-footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+        .news-footer > strong {
+            text-align: end;
+            margin-bottom: 30px;
+        }
+}

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about1" xml:space="preserve">
+    <value>Chúng tôi</value>
+  </data>
+  <data name="about10" xml:space="preserve">
+    <value>Nhân sự thuê ngoài</value>
+  </data>
+  <data name="about11" xml:space="preserve">
+    <value>Để giải quyết các vấn đề ngắn hạn của doanh nghiệp khi triển khai marketing , gói outsourced của chúng tôi cung cấp các dịch vụ riêng lẻ đáp ứng như một nhân sự trong bộ máy marketing hoàn thiện. 
+Các cá nhân này hoạt động theo chiến dịch mà bạn đã đề sẵn</value>
+  </data>
+  <data name="about12" xml:space="preserve">
+    <value>Tiếp thị đa kênh</value>
+  </data>
+  <data name="about13" xml:space="preserve">
+    <value>Mỗi kênh kỹ thuật số đáp ứng một nhóm khách hàng khác nhau, nhất quán với một cách tiếp cận nội dung khác nhau. Và Chúng tôi sẽ tối ưu hóa kênh tiếp cận,làm cho kênh hiệu quả và đo lường sự tập trung.</value>
+  </data>
+  <data name="about14" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="about15" xml:space="preserve">
+    <value>Phương tiện truyền thông là một phần không thể thiếu trong hoạt động tiếp thị, nó truyền tải ý tưởng của thương hiệu đến khán giả của họ một cách ấn tượng và trực quan sinh động. Chiến dịch quảng cáo không chỉ là TVc, hình ảnh quảng cáo, các ấn phẩm in ấn</value>
+  </data>
+  <data name="about16" xml:space="preserve">
+    <value>Chúng tôi luôn tìm kiếm</value>
+  </data>
+  <data name="about17" xml:space="preserve">
+    <value>Chúng tôi rất vui khi được làm việc với những người cởi mở sáng tạo có những ý tưởng tuyệt vời và những dự án mới sáng tạo. Chúng tôi chọn lọc những người mà chúng tôi làm việc cùng vì chúng tôi biết rằng việc xây dựng các mối quan hệ tin cậy cá nhân là rất quan trọng.</value>
+  </data>
+  <data name="about18" xml:space="preserve">
+    <value>Chúng tôi quan tâm đến việc cung cấp cho mỗi dự án một cách tiếp cận cá nhân và độc đáo bằng cách làm việc trong các nhóm quy mô nhỏ đáp ứng tốt nhất nhu cầu của từng khách hàng và dự án. Nếu bạn đã sẵn sàng làm việc cùng nhau, hãy gửi email cho chúng tôi!</value>
+  </data>
+  <data name="about2" xml:space="preserve">
+    <value>yêu</value>
+  </data>
+  <data name="about3" xml:space="preserve">
+    <value>sự sáng tạo thông qua từng chiến dịch quảng cáo</value>
+  </data>
+  <data name="about4" xml:space="preserve">
+    <value>Về chúng tôi</value>
+  </data>
+  <data name="about5" xml:space="preserve">
+    <value>Khởi đầu của chúng tôi là những người làm thiết kế chiến lược quảng cáo, hình ảnh truyền thông trên nhiều lĩnh vực. Với kinh nghiệm về chiến lược quảng cáo, chúng tôi đã giúp các công ty khởi nghiệp, giới thiệu sản phẩm, website - trang đích quảng bá sản phẩm, sự kiện khách hàng và các ấn phẩm in ấn. Chúng tôi không chỉ tạo ra trải nghiệm kỹ thuật số mà còn tạo ra trải nghiệm thực tế tại điểm bán hàng để giúp các con số của quá trình chuyển đổi tiếp thị - kinh doanh được toàn diện. &lt;br&gt;
+Chúng tôi cung cấp dịch vụ đơn giản nhưng tập trung vào cốt lõi của vấn đề, giải quyết vấn đề của bạn, chiến lược phù hợp với ngành, chất lượng hình ảnh tốt nhất cho chiến dịch, tôn trọng thời hạn và ngân sách tối ưu.&lt;br&gt;
+Chúng tôi tin tưởng rằng giá trị cốt lõi của bạn sẽ phục vụ tầm vóc của bạn trong những năm tới.
+Mỗi chiến dịch quảng cáo dù ngắn hạn hay dài hạn sẽ là một câu chuyện nói lên bạn là ai, thương hiệu của bạn có giá trị như thế nào.&lt;br&gt;
+Và chúng tôi yêu thích việc tạo ra giá trị cốt lõi cho từng chiến dịch quảng cáo, với mong muốn mỗi khách hàng, mỗi sản phẩm mà chúng tôi hoạch định chiến lược sẽ là một dự án tốt và có dấu ấn riêng. Chúng tôi luôn cố gắng hết sức để kết quả tốt nhất cho dự án.</value>
+  </data>
+  <data name="about6" xml:space="preserve">
+    <value>Dịch vụ</value>
+  </data>
+  <data name="about7" xml:space="preserve">
+    <value>Tiếp thị là một lĩnh vực rộng lớn và có nhiều mục tiêu cần phải hoàn thành để xây dựng câu chuyện thương hiệu, định hình thương hiệu trong tâm trí khách hàng và thúc đẩy doanh số bán hàng. Chúng tôi hiểu điều này hơn bất kỳ ai. Và chúng tôi cung cấp các dịch vụ tập trung nhất cho việc triển khai tiếp thị trong các doanh nghiệp vừa và nhỏ.</value>
+  </data>
+  <data name="about8" xml:space="preserve">
+    <value>Tư vấn chiến lược</value>
+  </data>
+  <data name="about9" xml:space="preserve">
+    <value>Mỗi giai đoạn của thương hiệu có một mục tiêu marketing riêng và ego đưa ra kế hoạch tổng thể , kế hoạch chi tiết giúp thương hiệu của bạn đạt được mục tiêu . 
+Chúng tôi tập trung lan tỏa giá trị, tiếng nói riêng của thương hiệu, giá trị sống còn của thương hiệu.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Giới thiệu - Ego</value>
+  </data>
+</root>

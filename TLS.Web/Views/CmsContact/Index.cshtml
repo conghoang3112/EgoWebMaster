@@ -1,0 +1,66 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+
+@section Headers{
+    <link href="~/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+}
+    <!--begin::Content-->
+    <div>
+        <div class="content d-flex flex-column flex-column-fluid">
+            <!--begin::Post-->
+            <div class="d-flex flex-column-fluid">
+                <!--begin::Container-->
+                <div class="container-fluid">
+                    <!--begin::Card-->
+                    <div class="card card-flush">
+                        <!--begin::Card header-->
+                        <div class="card-header mt-6">
+                            <h3 class="card-title">Danh sách liên lạc</h3>
+                          
+                        </div>
+                        <!--end::Card header-->
+                        <!--begin::Card body-->
+                        <div class="card-body pt-0 ">
+                            <!--begin::Datatable-->
+                            <table id="page_table" class="table align-middle table-row-bordered gy-5 gs-7">
+                                <thead>
+                                    <tr class="fw-bold fs-6 text-gray-800">
+                                        <th>STT</th>
+                                        <th>Full Name</th>
+                                        <th>PhoneNumber</th>
+                                        <th>Business Area</th>
+                                        <th>Company</th>
+                                        <th>Email</th>
+                                        <th>Position</th>
+                                        <th>Solution Of Interest</th>
+                                        <th>Form</th>
+                                        <th>Created Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-gray-600 fw-bold">
+                                </tbody>
+
+                            </table>
+                            <!--end::Datatable-->
+                            <!--begin::Paging-->
+                            <div class="mt-3">
+                            </div>
+                            <!--end::Paging-->
+                        </div>
+                        <!--end::Card body-->
+                    </div>
+                    <!--end::Card-->
+                </div>
+                <!--end::Container-->
+            </div>
+            <!--end::Post-->
+        </div>
+        <!--end::Content-->
+    </div>
+
+
+    @section Scripts{
+    <script src="~/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+    <script src="~/js/cms/contact.js"></script>
+}

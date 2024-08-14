@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using TLS.Web.Resources;
+@inject IViewLocalizer ViewLocalizer
+@section Headers{
+    <link href="~/css/contact.css" rel="stylesheet" />
+    <title>Contact - Ego</title>
+}
+<div class="contact-page">
+    <section>
+        <div class="max-width">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-12"></div>
+                <div class="col-lg-7 col-md-12 col-12">
+                    <div>@ViewLocalizer["contact1"]  </div>
+                    <div class="address">
+                        @ViewLocalizer["contact7"]
+                    </div>
+
+                    <div>@ViewLocalizer["contact2"] </div>
+                    <div class="address">
+                        <div>hello@egocreative.co</div>
+                        <div>0876 280 678</div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="link-redirect link-redirect-hide">
+                            <img src="~/EgoImages/arrow.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="form-mobile">
+                        <div>@ViewLocalizer["contact3"] </div>
+                        <br />
+                        <partial name="_ContactInputForm"></partial>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="row">
+        <div class="scrolling">
+            <div class="text-animation">
+                Thank you for searching
+                <span class="primary-color">egocreative</span> . We will respond to
+                every email sent to us
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+       
+        $("#app-footer").hide();
+    </script>
+}
+

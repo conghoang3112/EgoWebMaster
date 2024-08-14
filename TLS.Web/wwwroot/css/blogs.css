@@ -1,0 +1,120 @@
+﻿/* common */
+img {
+    width: 100%;
+    display: block;
+}
+
+section {
+    margin: 5rem 0;
+}
+
+.header h1 {
+    font-size: 64px;
+}
+
+/* common */
+.article {
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+
+    .article .title {
+        font-size: 24px;
+        margin-top: 1.5rem;
+    }
+
+    .article a {
+        margin-top: 1rem;
+        display: block;
+        color: var(--white-color);
+    }
+
+.page-link {
+    font-size: 18px;
+    border: none;
+    color: var(--white-color) !important;
+    background-color: transparent !important;
+}
+
+.short-desc {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.scroll {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    top: 90%;
+    right: 2%;
+    width: 115px;
+}
+
+    .scroll .circle {
+        width: 100%;
+    }
+
+.scroll .arrow {
+    width: 7%;
+    animation: scrollArrow 1.3s linear infinite;
+}
+
+
+@keyframes scrollArrow {
+    20% {
+        transform: translateY(0%);
+    }
+
+    40% {
+        transform: translateY(5%);
+    }
+
+    60% {
+        transform: translateY(10%);
+    }
+
+    80% {
+        transform: translateY(5%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .scroll {
+        top: 17vw;
+        right: 5%;
+        width: 70px;
+    }
+
+    /* common */
+    section {
+        margin: 3rem 0;
+    }
+
+    .header h1 {
+        font-size: 26px;
+    }
+    /* common */
+    .article,
+    .page-link {
+        font-size: 12px;
+    }
+
+    .article {
+        margin-bottom: 2rem;
+    }
+
+        .article .title {
+            font-size: 20px;
+            margin-top: 1rem;
+        }
+
+        .article a {
+            margin-top: 0.5rem;
+        }
+}

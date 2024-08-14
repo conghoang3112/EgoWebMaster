@@ -1,0 +1,512 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using TLS.Web.Resources
+@inject LocalizationService LocalizationService
+@inject IViewLocalizer ViewLocalizer
+@section Headers{
+    <link href="~/css/home1.css" rel="stylesheet" />
+    <title>Home - Ego</title>
+}
+<div class="home-page relative">
+
+    @* <section class="max-width banner relative">
+    <div class="banner-content">
+    <p data-aos="fade-up"
+    data-aos-duration="700"
+    data-aos-easing="linear">
+    @ViewLocalizer["home1"]
+    </p>
+
+    <div class="h1-wrapper relative">
+    <h1>We're</h1>
+    <div class="text-gsap">
+    <div class="d-flex">
+    <div class="char">e</div>
+    <div class="char">l</div>
+    <div class="char">e</div>
+    <div class="char">m</div>
+    <div class="char">e</div>
+    <div class="char">n</div>
+    <div class="char">t</div>
+    <div class="char">y</div>
+    </div>
+
+    <div class="d-flex">
+    <div class="char">e</div>
+    <div class="char">l</div>
+    <div class="char">e</div>
+    <div class="char">m</div>
+    <div class="char">e</div>
+    <div class="char">n</div>
+    <div class="char">t</div>
+    <div class="char">y</div>
+    </div>
+    </div>
+
+    <div class="text-gsap">
+    <div class="d-flex">
+    <div class="char1">c</div>
+    <div class="char1">r</div>
+    <div class="char1">e</div>
+    <div class="char1">a</div>
+    <div class="char1">t</div>
+    <div class="char1">i</div>
+    <div class="char1">v</div>
+    <div class="char1">e</div>
+    </div>
+
+    <div class="d-flex">
+    <div class="char1">c</div>
+    <div class="char1">r</div>
+    <div class="char1">e</div>
+    <div class="char1">a</div>
+    <div class="char1">t</div>
+    <div class="char1">i</div>
+    <div class="char1">v</div>
+    <div class="char1">e</div>
+    </div>
+    </div>
+    <h1>digital marketing</h1>
+
+
+    <div class="scroll">
+    <img src="~/EgoImages/scroll.png" alt="" class="circle" />
+    <img src="~/EgoImages/arrow.png" alt="" class="absolute arrow" />
+    </div>
+    </div>
+    @if (ViewBag.Culture == "vi")
+    {
+    <h2 data-aos="fade-up"
+    data-aos-duration="700"
+    data-aos-easing="linear">
+    @ViewLocalizer["home2"]
+    <span class="primary-color">@ViewLocalizer["home3"]</span>
+    </h2>
+
+    }
+    else
+    {
+    <h2 data-aos="fade-up"
+    data-aos-duration="700"
+    data-aos-easing="linear">
+    @ViewLocalizer["home2"]
+    <span class="primary-color">@ViewLocalizer["home3"]</span> @ViewLocalizer["home4"]
+    </h2>
+    }
+
+    </div>
+    </section>
+
+    <section class="max-width value-number">
+    <div class="number-content" data-aos="fade-up"
+    data-aos-duration="1500"
+    data-aos-easing="linear">
+    <div class="item-1">12h</div>
+    <div class="item-2">
+    @ViewLocalizer["home5"]
+    </div>
+    <div class="item-3">20-25%</div>
+    <div class="item-4">
+    @ViewLocalizer["home6"]
+    </div>
+    <div class="item-5">4</div>
+    <div class="item-6">
+    <p class="paragraph">
+    @ViewLocalizer["home7"]
+
+    </p>
+    <div>
+    <p>01</p>
+    <p class="text">@ViewLocalizer["home18"] </p>
+    </div>
+    <br />
+    <div>
+    <p>02</p>
+    <p class="text">@ViewLocalizer["home19"]</p>
+    </div>
+    <br />
+    <div>
+    <p>03</p>
+    <p class="text">@ViewLocalizer["home20"]</p>
+    </div>
+    <br />
+    <div>
+    <p>04</p>
+    <p class="text">@ViewLocalizer["home21"]</p>
+    </div>
+    <br />
+    <div>
+    <p>05</p>
+    <p class="text">@ViewLocalizer["home22"]</p>
+    </div>
+
+    <a href="/contact" class="link-redirect link-contact">
+    <img src="~/EgoImages/arrow.png" alt="" />
+    </a>
+    </div>
+    <div class="item-7">1</div>
+    <div class="item-8">
+    @ViewLocalizer["home8"]
+
+    </div>
+    </div>
+    </section>
+    *@
+
+    <section class="section-header max-width relative">
+        <div class="row">
+            <div class="col-lg-8 col-12">
+                <div class="heading">
+                    We're
+                    <span class="fw-bold"> brand & marketing </span>
+                    strategy agency
+                </div>
+
+                <div class="mt-5">
+                    Ego Agency là đơn vị tư vấn, cung cấp giải pháp chiến lược và triển khai thương hiệu, đồng hành cùng những doanh nghiệp khởi sự, quy mô vừa & nhỏ.
+                </div>
+                <div>
+                    Chúng tôi giúp bạn tăng trưởng doanh nghiệp thông qua việc thu hút khách hàng tiềm năng, nuôi dưỡng họ thành khách hàng trung thành. Gia tăng tài sản thương hiệu bền vững.
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="hello-wrapper absolute">
+                    <img class="w-100" src="~/EgoImages/home/hello-ego.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-marketing bg-white black-color py-5">
+        <div class="max-width">
+            <div class="row">
+                <div class="col-lg-10 col-12 p-0">
+                    <p class="heading py-5">
+                        Chúng tôi <span class="primary-color">liên kết</span> mục tiêu
+                        thương hiệu & marketing với mục tiêu kinh doanh của doanh nghiệp
+                    </p>
+                </div>
+            </div>
+
+            <div class="row pb-5">
+                <div class="col-lg-6 col-12">
+                    <img class="w-100" src="~/egoimages/home/tầm nhìn thương hiệu.png" />
+                    <p class="mt-5 pt-5">
+                        Mọi đề xuất chiến lược của Ego Agency đều được dựa trên phân tích từ thị trường, đối thủ, nội tại của thương hiệu và khách hàng mục tiêu.
+                        <br />
+                        <br />
+                        Chúng tôi ý thức mọi tác động của Ego Agency dù là giải pháp chiến lược hay thực thi chiến lược đều ảnh hưởng đến chất lượng tài sản doanh nghiệp trong tương lai.
+
+                    </p>
+                </div>
+                <div class="col-lg-1 col-12"></div>
+                <div class="col-lg-5 col-12">
+                    <div class="mb-5">
+                        <p class="font-32">Dịch vụ marketing tổng thể tinh gọn</p>
+                        <p>
+                            Mục tiêu của chúng tôi là tập trung giải quyết các vấn đề mà chủ
+                            thương hiệu mới - doanh nghiệp vừa và nhỏ gặp phải với triển
+                            khai Branding & Digital Marketing. Với 4 dịch vụ tinh gọn và
+                            hiệu quả cao.
+                        </p>
+                    </div>
+
+                    <a class="d-flex gap-3 mb-3 black-color" href="/giai-phap-marketing-toan-dien/thiet-ke-thuong-hieu-tron-goi-ha-noi">
+                        <div class="">01</div>
+                        <p class="font-38">
+                            Giải pháp toàn diện cho doanh nghiệp khởi sự - Easy go
+                        </p>
+                    </a>
+                    <a class="d-flex gap-3 mb-3 black-color" href="/giai-phap-marketing-toan-dien/toi-uu-nen-tang-social-marketing-toan-dien">
+                        <p class="">02</p>
+                        <p class="font-38">Tối ưu các nền tảng truyền thông sở hữu</p>
+                    </a>
+                    <a class="d-flex gap-3 mb-3 black-color" href="/giai-phap-marketing-toan-dien/video-marketing-tron-goi-ha-noi"> 
+                        <p class="">03</p>
+                        <p class="font-38">
+                            Giải pháp sản xuất video ngắn chuyên sâu Etik Production
+                        </p>
+                    </a>
+                    <a class="d-flex gap-3 mb-3 black-color" href="/giai-phap-marketing-toan-dien/nhan-su-marketing-thue-ngoai-ha-noi">
+                        <p class="">04</p>
+                        <p class="font-38">Phòng Marketing thuê ngoài</p>
+                    </a>
+
+                    <a href="/giai-phap-marketing-toan-dien">
+                        <div class="link-redirect">
+                            <img src="~/EgoImages/arrow.png" alt="" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="we-want max-width py-5 my-5">
+        <div class="heading"
+             data-aos="fade-up"
+             data-aos-duration="800"
+             data-aos-easing="linear">
+            @ViewLocalizer["home9"]
+
+        </div>
+        <div class="aproach d-flex">
+            <div class="text-vertical">
+                @ViewLocalizer["home10"]
+            </div>
+
+            <div class="aproach-list d-flex">
+                <div class="aproach-item"
+                     data-aos="fade-up"
+                     data-aos-duration="700"
+                     data-aos-easing="linear">
+                    <div class="title">Meeting</div>
+                    <div class="desc">
+                        @ViewLocalizer["home11"]
+
+
+                    </div>
+                </div>
+                <div class="aproach-item"
+                     data-aos="fade-up"
+                     data-aos-duration="900"
+                     data-aos-easing="linear">
+                    <div class="title">Sollution</div>
+                    <div class="desc">
+                        @ViewLocalizer["home12"]
+
+                    </div>
+                </div>
+                <div class="aproach-item"
+                     data-aos="fade-up"
+                     data-aos-duration="1100"
+                     data-aos-easing="linear">
+                    <div class="title">Brief</div>
+                    <div class="desc">
+                        @ViewLocalizer["home13"]
+
+                    </div>
+                </div>
+                <div class="aproach-item"
+                     data-aos="fade-up"
+                     data-aos-duration="1200"
+                     data-aos-easing="linear">
+                    <div class="title">Contract</div>
+                    <div class="desc">
+                        @ViewLocalizer["home14"]
+
+                    </div>
+                </div>
+                <div class="aproach-item"
+                     data-aos="fade-up"
+                     data-aos-duration="1300"
+                     data-aos-easing="linear">
+                    <div class="title">Actions</div>
+                    <div class="desc">
+                        @ViewLocalizer["home15"]
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="we-do max-width">
+        <div class="h2 d-flex align-items-center justify-content-between">
+            <h2 data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-easing="linear">
+                <a href="/du-an">
+                    <span class="primary-color">@ViewLocalizer["home16"]</span>@ViewLocalizer["home17"]
+                </a>
+            </h2>
+            <a href="/du-an" class="">
+                <img src="~/EgoImages/arrow-right.png" alt="" style="width: 55px" />
+            </a>
+        </div>
+
+ 
+        <nav>
+            <div class="img-wrapper">
+                <div class="img-placeholder">
+                    <img src=""
+                         alt="" />
+                </div>
+            </div>
+            <ul class="todo-list">
+                <li>
+                    <a class="nav-link item d-flex"
+                       data-src="./EgoImages/home/esa.jpg"
+                       href="/du-an/thiet-ke-bo-nhan-dien-thuong-hieu-giao-duc-tieng-anh">
+                        <div class="number">01</div>
+                        <div class="title">ESA english</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link item d-flex"
+                       data-src="./EgoImages/home/evi-behance.jpg"
+                       href="/du-an/thiet-ke-bo-nhan-dien-trung-tam-tieng-anh">
+                        <div class="title">Evi english</div>
+                        <div class="number">02</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link item d-flex"
+                       data-src="./EgoImages/home/simple.jpg"
+                       href="/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-marketing-da-kenh-nganh-thoi-trang">
+                        <div class="number">03</div>
+                        <div class="title">Simple closet</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link item d-flex"
+                       data-src="./EgoImages/home/shn_event.jpg"
+                       href="/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-remarketing-su-kien-nganh-vat-lieu-xay-dung">
+                        <div class="title">HaNoi paint event</div>
+                        <div class="number">04</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link item d-flex"
+                       data-src="./EgoImages/home/shn_social.jpg"
+                       href="/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-social-marketing-nganh-vat-lieu-xay-dung">
+                        <div class="number">05</div>
+                        <div class="title">Hanoi Paint social</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link item d-flex"
+                       data-src="./EgoImages/home/fara.jpg"
+                       href="/du-an/social-marketing-nganh-my-pham">
+                        <div class="title">Fara spa</div>
+                        <div class="number">06</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link item d-flex"
+                       data-src="./EgoImages/home/mejarl.jpg"
+                       href="/du-an/thiet-ke-nhan-dien-thuong-hieu-va-bao-bi-san-pham-nganh-my-pham">
+                        <div class="number">07</div>
+                        <div class="title">Mejarl Cosmetic</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="d-none">
+            <img src="./EgoImages/home/esa.jpg" />
+            <img src="./EgoImages/home/evi-behance.jpg" />
+            <img src="./EgoImages/home/simple.jpg" />
+            <img src="./EgoImages/home/shn_event.jpg" />
+            <img src="./EgoImages/home/shn_social.jpg" />
+            <img src="./EgoImages/home/fara.jpg" />
+            <img src="./EgoImages/home/mejarl.jpg" />
+        </div>
+    </section>
+
+
+    <section class="section-customer bg-white py-5">
+        <div class="max-width">
+            <div class="black-color font-64 my-5">Khách hàng của chúng tôi</div>
+            <div class="text-center">
+                <img class="w-100" src="~/EgoImages/home/customer.png" />
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-form py-5 max-width">
+        <div class="row">
+            <div class="col-lg-6 col-12"></div>
+            <div class="col-lg-4 col-12 mb-2">
+                <img class="w-100" src="~/EgoImages/about/connect.png" />
+            </div>
+            <div class="col-lg-2 col-12"></div>
+            <div class="col-lg-6 col-12 title">
+                Chúng tôi quan tâm
+                đến dự án & doanh nghiệp
+                của bạn
+            </div>
+            <div class="col-lg-1 col-12"></div>
+            <div class="col-lg-5 col-12">
+                <div class="form-mobile">
+                    <partial name="_ContactInputForm"></partial>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+@section Scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        gsap.to(".scroll .circle", { rotation: 360, transformOrigin: "center", ease: "none", duration: 15, repeat: -1 });
+
+        var navLink = gsap.utils.toArray(".nav-link"),
+            imgWrap = document.querySelector(".img-wrapper"),
+            imgItem = document.querySelector(".img-placeholder img");
+
+        function moveImg(e) {
+            var mouseX = e.clientX,
+                mouseY = e.clientY;
+            tl = gsap.timeline();
+            tl.to(imgWrap, {
+                duration: 1,
+                x: mouseX,
+                y: mouseY,
+                ease: Expo.ease,
+            });
+        }
+
+        function linkHover(e) {
+            if (e.type === "mouseenter") {
+                var imgSrc = e.target.dataset.src;
+                var tl = gsap.timeline();
+
+                tl.set(imgItem, {
+                    attr: { src: imgSrc },
+                }).to(imgWrap, {
+                    autoAlpha: 1,
+                    scale: 1.5,
+                });
+            } else if (e.type === "mouseleave") {
+                var tl = gsap.timeline();
+                tl.to(imgWrap, {
+                    autoAlpha: 0,
+                    scale: 0.3,
+                });
+            }
+        }
+
+        function initAnimation() {
+            navLink.forEach((link) => {
+                link.addEventListener("mouseenter", linkHover);
+                link.addEventListener("mouseleave", linkHover);
+                link.addEventListener("mousemove", moveImg);
+            });
+        }
+
+        function initTweenMaxAnimation() {
+            gsap.to(".char", {
+                y: -100,
+                stagger: 0.08,
+                duration: 0.5,
+            });
+
+            gsap.to(".char1", {
+                y: -100,
+                stagger: 0.08,
+                delay: 1.5,
+                duration: 0.5,
+            });
+        }
+
+        function init() {
+            initAnimation();
+            initTweenMaxAnimation()
+        }
+
+        window.addEventListener("load", function () {
+            init();
+        });
+    </script>
+}           

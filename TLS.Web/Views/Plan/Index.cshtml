@@ -1,0 +1,521 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_PlanLayout.cshtml";
+}
+@section Headers{
+    <title>Dịch vụ hoạch định truyền thông </title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5W1BFXY1M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-J5W1BFXY1M');
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '789013023082432');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=789013023082432&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+  
+}
+<div class="relative">
+    <div class="lg:bg-[url('/EgoImages/plan/banner.png')] bg-[url('/EgoImages/plan/banner-mobile.png')] bg-cover bg-center bg-center">
+        <div class="max-w-[1360px] lg:mx-auto mx-5 pt-[100px] lg:pb-[250px] pb-[350px]">
+            <div class="darker-grotesque-font text-[32px] font-bold primary-color text-center lg:text-left">
+                HOẠCH ĐỊNH
+            </div>
+            <h1 class="lg:text-[66px] text-[54px] font-[900] darker-grotesque-font lg:max-w-md primary-color leading-none text-center lg:text-left">
+                CHIẾN LƯỢC TRUYỀN THÔNG
+            </h1>
+
+            <div class="font-[700] manrope-font my-16 lg:text-2xl text-lg max-w-md">
+                <div class="mb-6 inline-flex items-start">
+                    <img src="~/EgoImages/plan/checkIcon.svg" alt="" />
+                    Phù hợp với mô hình kinh doanh
+                </div>
+                <div class="inline-flex items-start">
+                    <img src="~/EgoImages/plan/checkIcon.svg" alt="" />Giúp doanh
+                    nghiệp đạt mục tiêu kinh doanh 2024
+                </div>
+            </div>
+
+            <a href="#"
+               class="inline-flex rounded-3xl bg-indigo-600 px-6 py-2 text-xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-[#031C72] to-[#3058E7]">NHẬN HOẠCH ĐỊNH NGAY</a>
+        </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="max-w-[1360px] lg:mx-auto mx-5 lg:pt-20 pt-10 pb-6"
+         id="benefit">
+        <div class="grid lg:grid-cols-6 lg:grid-cols-1 gap-4">
+            <div class="lg:col-span-2 lg:text-[66px] text-4xl font-[700] darker-grotesque-font col-span-1 primary-color text-center lg:text-left">
+                Lợi ích
+            </div>
+            <div class="lg:col-span-4 col-span-1">
+                <div class="inter-font text-md text-center lg:text-left">
+                    Chiến lược truyền thông đóng vai trò quan trọng cho sự thành
+                    công của bất kỳ tổ chức nào. Một bản chiến lược truyền thông tốt
+                    sẽ cho doanh nghiệp trả lời 3 câu hỏi :
+                </div>
+                <div class="darker-grotesque-font">
+                    <div class="lg:flex block my-8">
+                        <div class="flex-1 lg:block flex gap-3 items-center mb-2">
+                            <div class="lg:text-[66px] text-4xl font-[700] primary-color">
+                                WHY?
+                            </div>
+                            <div class="inter-font font-[100] italic mt-2">
+                                Xác định mục tiêu
+                            </div>
+                        </div>
+
+                        <div class="flex justify-center items-center lg:gap-3 gap-1">
+                            <div class="lg:h-[100%] lg:w-[168px] h-[50px] min-w-[90px] font-[700] lg:py-2 lg:px-4 p-2 text-center bg-gray-300 lg:text-2xl text-lg grid place-content-center">
+                                Thị trường
+                            </div>
+                            <img src="~/EgoImages/plan/arrow.svg"
+                                 class="lg:w-auto w-5" />
+                            <div class="lg:h-[100%] lg:w-[168px] h-[50px] min-w-[90px] font-[700] lg:py-2 lg:px-4 p-2 text-center bg-gray-300 lg:text-2xl text-lg grid place-content-center">
+                                Phân khúc mục tiêu
+                            </div>
+                            <img src="~/EgoImages/plan/arrow.svg"
+                                 class="lg:w-auto w-5" />
+                            <div class="lg:h-[100%] lg:w-[168px] h-[50px] min-w-[90px] font-[700] lg:py-2 lg:px-4 p-2 text-center bg-gray-300 lg:text-2xl text-lg grid place-content-center">
+                                Khách hàng mục tiêu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:flex block my-8">
+                        <div class="flex-1 lg:block flex gap-3 items-center mb-2">
+                            <div class="lg:text-[66px] text-4xl font-[700] primary-color">
+                                HOW?
+                            </div>
+                            <div class="inter-font font-[100] italic mt-2">
+                                Cách đạt mục tiêu
+                            </div>
+                        </div>
+
+                        <div class="flex justify-center items-center lg:gap-3 gap-1">
+                            <div class="lg:h-[100%] lg:w-[168px] h-[50px] min-w-[90px] font-[700] lg:py-2 lg:px-4 p-2 text-center bg-gray-300 lg:text-2xl text-lg grid place-content-center">
+                                Thông điệp
+                            </div>
+                            <img src="~/EgoImages/plan/arrow.svg"
+                                 class="lg:w-auto w-5" />
+                            <div class="lg:h-[100%] lg:w-[168px] h-[50px] min-w-[90px] font-[700] lg:py-2 lg:px-4 p-2 text-center bg-gray-300 lg:text-2xl text-lg grid place-content-center">
+                                Kênh truyền thông
+                            </div>
+                            <img src="~/EgoImages/plan/arrow.svg"
+                                 class="lg:w-auto w-5" />
+                            <div class="lg:h-[100%] lg:w-[168px] h-[50px] min-w-[90px] font-[700] lg:py-2 lg:px-4 p-2 text-center bg-gray-300 lg:text-2xl text-lg grid place-content-center">
+                                Kênh chuyển đổi
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:flex block my-8">
+                        <div class="flex-1 lg:block flex gap-3 items-center mb-2">
+                            <div class="lg:text-[66px] text-4xl font-[700] primary-color">
+                                WHAT?
+                            </div>
+                            <div class="inter-font font-[100] italic mt-2">
+                                Công việc cụ thể
+                            </div>
+                        </div>
+
+                        <div class="flex lg:justify-center items-center lg:gap-3 gap-1">
+                            <div class="lg:h-[100%] lg:w-[168px] h-[50px] min-w-[90px] font-[700] lg:py-2 lg:px-4 p-2 text-center bg-gray-300 lg:text-2xl text-lg grid place-content-center">
+                                Nội dung
+                            </div>
+                            <img src="~/EgoImages/plan/arrow.svg"
+                                 class="lg:w-auto w-5" />
+                            <div class="lg:h-[100%] lg:w-[168px] h-[50px] min-w-[90px] font-[700] lg:py-2 lg:px-4 p-2 text-center bg-gray-300 lg:text-2xl text-lg grid place-content-center">
+                                Định dạng
+                            </div>
+                            <img src="~/EgoImages/plan/arrow.svg"
+                                 class="lg:w-auto w-5" />
+                            <div class="lg:h-[100%] lg:w-[168px] h-[50px] min-w-[90px] font-[700] lg:py-2 lg:px-4 p-2 text-center bg-gray-300 lg:text-2xl text-lg grid place-content-center">
+                                Tiến độ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:max-w-full max-w-[375px]">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="~/EgoImages/plan/slider-1.png" />
+                        </div>
+                        <div class="item">
+                            <img src="~/EgoImages/plan/slider-2.png" class="" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="~/EgoImages/plan/slider-3.png" class="" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="~/EgoImages/plan/slider-4.png" class="" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="~/EgoImages/plan/slider-5.png" class="" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="~/EgoImages/plan/slider-10.png" class="" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="~/EgoImages/plan/slider-6.png" class="" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="~/EgoImages/plan/slider-7.png" class="" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="~/EgoImages/plan/slider-8.png" class="" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="~/EgoImages/plan/slider-9.png" class="" alt="" />
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Collapse -->
+    <div id="content"
+         class="bg-[url('/EgoImages/plan/content-bg.png')] bg-cover bg-center bg-center bg-blue-100">
+        <div class="max-w-[1360px] lg:mx-auto mx-5 grid lg:grid-cols-2 grid-cols-1 gap-4 py-20">
+            <div class="lg:text-[66px] text-4xl font-[700] darker-grotesque-font leading-none primary-color">
+                Nội dung
+                <br />
+                Bản hoạch định
+            </div>
+            <div class="darker-grotesque-font">
+                <div id="accordion-collapse" data-accordion="collapse">
+                    <h2 id="accordion-collapse-heading-1"
+                        class="mb-2 text-xl font-bold">
+                        <button type="button"
+                                class="flex items-center justify-between w-full p-5 rtl:text-right rounded-xl gap-3 bg-white cursor-default"
+                                data-accordion-target="#accordion-collapse-body-1"
+                                aria-expanded="true"
+                                aria-controls="accordion-collapse-body-1">
+                            <span>1. Nghiên cứu thị trường</span>
+                            <div class="py-2 px-4 shadow-md bg-[#FEF8F8]">
+                                <img src="~/EgoImages/plan/addIcon.svg" />
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-1"
+                         class="mb-2"
+                         aria-labelledby="accordion-collapse-heading-1">
+                        <div class="p-5 bg-white">
+                            <ul class="list-disc px-5 text-md font-semibold">
+                                <li>Số liệu thị trường về lĩnh vực kinh doanh</li>
+                                <li>Phân khúc thị trường</li>
+                                <li>Lựa chọn thị trường mục tiêu</li>
+                                <li>Lựa chọn khách hàng mục tiêu</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 id="accordion-collapse-heading-2"
+                        class="mb-2 text-xl font-bold">
+                        <button type="button"
+                                class="flex items-center justify-between w-full p-5 rtl:text-right rounded-xl gap-3 bg-white cursor-default"
+                                data-accordion-target="#accordion-collapse-body-2"
+                                aria-expanded="true"
+                                aria-controls="accordion-collapse-body-2">
+                            <span>2. Phân tích khách hàng mục tiêu </span>
+                            <div class="py-2 px-4 shadow-md bg-[#FEF8F8]">
+                                <img src="~/EgoImages/plan/addIcon.svg" />
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-2"
+                         class="mb-2"
+                         aria-labelledby="accordion-collapse-heading-2">
+                        <div class="p-5 bg-white">
+                            <ul class="list-disc px-5 text-md font-semibold">
+                                <li style="list-style-type: none;margin-left: -18px;">Chân dung khách hàng mục tiêu</li>
+                                <li>Nhân khẩu học</li>
+                                <li>Sở thích - Hành vi - Thói quen</li>
+                                <li>Lý do mua hàng</li>
+                                <li>Rào cản mua hàng</li>
+                                <li>Insign</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 id="accordion-collapse-heading-3"
+                        class="mb-2 text-xl font-bold">
+                        <button type="button"
+                                class="flex items-center justify-between w-full p-5 rtl:text-right rounded-xl gap-3 bg-white cursor-default"
+                                data-accordion-target="#accordion-collapse-body-3"
+                                aria-expanded="true"
+                                aria-controls="accordion-collapse-body-3">
+                            <span>3. Xác định lợi thế cạnh tranh </span>
+                            <div class="py-2 px-4 shadow-md bg-[#FEF8F8]">
+                                <img src="~/EgoImages/plan/addIcon.svg" />
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-3"
+                         class="hidden mb-2"
+                         aria-labelledby="accordion-collapse-heading-3">
+                        <div class="p-5 bg-white">
+                            <ul class="list-disc px-5 text-md font-semibold">
+                               
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 id="accordion-collapse-heading-4"
+                        class="mb-2 text-xl font-bold">
+                        <button type="button"
+                                class="flex items-center justify-between w-full p-5 rtl:text-right rounded-xl gap-3 bg-white cursor-default"
+                                data-accordion-target="#accordion-collapse-body-4"
+                                aria-expanded="true"
+                                aria-controls="accordion-collapse-body-4">
+                            <span>4. Xác định giải pháp thương hiệu </span>
+                            <div class="py-2 px-4 shadow-md bg-[#FEF8F8]">
+                                <img src="~/EgoImages/plan/addIcon.svg" />
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-4"
+                         class="mb-2"
+                         aria-labelledby="accordion-collapse-heading-4">
+                        <div class="p-5 bg-white">
+                            <ul class="list-disc px-5 text-md font-semibold">
+                                <li>Định vị thương hiệu</li>
+                                <li>Chiến lược thương hiệu</li>
+                        
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 id="accordion-collapse-heading-5"
+                        class="mb-2 text-xl font-bold">
+                        <button type="button"
+                                class="flex items-center justify-between w-full p-5 rtl:text-right rounded-xl gap-3 bg-white cursor-default"
+                                data-accordion-target="#accordion-collapse-body-5"
+                                aria-expanded="true"
+                                aria-controls="accordion-collapse-body-5">
+                            <span>5. Chiến lược truyền thông & Kế hoạch triển khai</span>
+                            <div class="py-2 px-4 shadow-md bg-[#FEF8F8]">
+                                <img src="~/EgoImages/plan/addIcon.svg" />
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-5"
+                         class="mb-2"
+                         aria-labelledby="accordion-collapse-heading-5">
+                        <div class="p-5 bg-white">
+                            <ul class="list-disc px-5 text-md font-semibold">
+                                <li>Xác lập kênh truyền thông</li>
+                                <li>Xác lập kênh chuyển đồi</li>
+                                <li>Mục tiêu truyền thông & KPI</li>
+                                <li>Mục tiêu chuyển đổi & KPI</li>
+                                <li>Chiến lược nội dung</li>
+                                <li>Timeline hoạt động</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 id="accordion-collapse-heading-6"
+                        class="mb-2 text-xl font-bold">
+                        <button type="button"
+                                class="flex items-center justify-between w-full p-5 rtl:text-right rounded-xl gap-3 bg-white cursor-default"
+                                data-accordion-target="#accordion-collapse-body-6"
+                                aria-expanded="true"
+                                aria-controls="accordion-collapse-body-6">
+                            <span>6. Xác lập bảng đo lường chuyển đổi</span>
+                            <div class="py-2 px-4 shadow-md bg-[#FEF8F8]">
+                                <img src="~/EgoImages/plan/addIcon.svg" />
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-6"
+                         class="hidden mb-2"
+                         aria-labelledby="accordion-collapse-heading-6">
+                        <div class="p-5 bg-white">
+                            <ul class="list-disc px-5 text-md font-semibold">
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quy trinh trien khai -->
+    <div class="max-w-[1360px] lg:mx-auto mx-5 lg:py-20 py-10"
+         id="procedure">
+        <div class="col-span-2 lg:text-[66px] text-4xl font-[700] leading-none darker-grotesque-font lg:max-w-[250px] primary-color">
+            Quy trình triển khai
+        </div>
+
+        <div class="darker-grotesque-font mt-10">
+            <div class="flex lg:flex-row flex-col lg:gap-10 gap-4 justify-center">
+                <div class="flex flex-row lg:flex-col bg-blue-100 lg:w-[368px] lg:h-[343px] rounded-3xl">
+                    <div class="primary-color lg:text-[40px] text-xl font-[700] text-center p-6 lg:border-b-2 lg:border-r-0 border-r-2 border-[#D4DAF0]">
+                        Bước 1
+                    </div>
+                    <div class="lg:text-2xl text-md py-6 lg:px-14 px-6 flex-1 grid items-center lg:text-center font-semibold">
+                        Khảo sát thực trạng kênh truyền thông - kênh chuyển đổi & sức
+                        khỏe thương hiệu của doanh nghiệp
+                    </div>
+                </div>
+
+                <div class="flex lg:flex-col flex-row bg-blue-100 lg:w-[368px] lg:h-[343px] rounded-3xl">
+                    <div class="primary-color lg:text-[40px] text-xl font-[700] text-center p-6 lg:border-b-2 lg:border-r-0 border-r-2 border-[#D4DAF0]">
+                        Bước 2
+                    </div>
+                    <div class="lg:text-2xl text-md py-6 lg:px-14 px-6 flex-1 grid items-center lg:text-center font-semibold">
+                        Tìm kiếm và phân tích dữ liệu thị trường
+                    </div>
+                </div>
+
+                <div class="flex lg:flex-col flex-row bg-blue-100 lg:w-[368px] lg:h-[343px] rounded-3xl">
+                    <div class="primary-color lg:text-[40px] text-xl font-[700] text-center p-6 lg:border-b-2 lg:border-r-0 border-r-2 border-[#D4DAF0]">
+                        Bước 3
+                    </div>
+                    <div class="lg:text-2xl text-md py-6 lg:px-14 px-6 flex-1 grid items-center lg:text-center font-semibold">
+                        Gặp mặt - Trao đổi trực tiếp để thống nhất mục tiêu chung từ
+                        dữ liệu thị trường & Phân tích khảo sát hoạt động marketing
+                        của doanh nghiệp
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex lg:flex-row flex-col lg:gap-10 gap-4 justify-center lg:mt-10 mt-4">
+                <div class="flex lg:flex-col flex-row bg-blue-100 lg:w-[368px] lg:h-[343px] rounded-3xl">
+                    <div class="primary-color lg:text-[40px] text-xl font-[700] text-center p-6 lg:border-b-2 lg:border-r-0 border-r-2 border-[#D4DAF0]">
+                        Bước 4
+                    </div>
+                    <div class="lg:text-2xl text-md py-6 lg:px-14 px-6 flex-1 grid items-center lg:text-center font-semibold">
+                        Tiến hành hoạch định
+                    </div>
+                </div>
+
+                <div class="flex lg:flex-col flex-row bg-blue-100 lg:w-[368px] lg:h-[343px] rounded-3xl">
+                    <div class="primary-color lg:text-[40px] text-xl font-[700] text-center p-6 lg:border-b-2 lg:border-r-0 border-r-2 border-[#D4DAF0]">
+                        Bước 5
+                    </div>
+                    <div class="lg:text-2xl text-md py-6 lg:px-14 px-6 flex-1 grid items-center lg:text-center font-semibold">
+                        Nghiệm thu & Bàn giao
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- form -->
+    <div class="darker-grotesque-font bg-[url('/EgoImages/plan/bg-form.png')] bg-cover bg-center bg-center bg-blue-300" id="survey-section">
+        <div class="max-w-[1360px] lg:mx-auto mx-5 grid lg:grid-cols-2">
+            <div class="lg:text-[66px] text-4xl font-[700] leading-none lg:max-w-[450px] lg:text-white primary-color my-6">
+                Tiến hành Khảo sát & phân tích dữ liệu
+            </div>
+            <div>
+                <form class="max-w-md mx-auto bg-white p-4 rounded-lg text-center lg:mb-0 mb-4" id="survey-form">
+                    <div class="mb-5">
+                        <input type="text"
+                               class="bg-gray-100 font-[600] text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4"
+                               placeholder="Họ và tên anh/chị"
+                               name="CustomerName"
+                               required />
+                    </div>
+                    <div class="mb-5">
+                        <input type="tel"
+                               class="bg-gray-100 font-[600] text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4"
+                               placeholder="Số điện thoại"
+                               name="CustomerPhone"
+                               required />
+                    </div>
+
+                    <div class="mb-5">
+                        <input type="text"
+                               class="bg-gray-100 font-[600] text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4"
+                               placeholder="Tên công ty/Thương hiệu"
+                               name="CompanyName"
+                               required />
+                    </div>
+
+                    <select class="bg-gray-100 font-[600] text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4 mb-5" name="BusinessField">
+                        <option value="0">Lĩnh vực</option>
+                        <option value="1">Giáo dục</option>
+                        <option value="2">Thẩm mỹ</option>
+                        <option value="3">Công nghệ</option>
+                        <option value="4">Thời trang</option>
+                        <option value="5">Gia dụng</option>
+                        <option value="6">B2B</option>
+                    </select>
+
+                    <select class="bg-gray-100 font-[600] text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4 mb-5" name="Title">
+                        <option value="0">Chức vụ</option>
+                        <option value="1">Chủ doanh nghiệp</option>
+                        <option value="2">CEO</option>
+                        <option value="3">Marketing Manager</option>
+                    </select>
+
+                    <select class="bg-gray-100 font-[600] text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4 mb-5" name="MediaChannel">
+                        <option value="0">Kênh truyền thông hiện tại</option>
+                        <option value="1">Facebook</option>
+                        <option value="2">Instagram</option>
+                        <option value="3">Tiktok</option>
+                        <option value="4">PR/ Báo chí</option>
+                        <option value="5">Website</option>
+                    </select>
+
+                    <div class="mb-5">
+                        <input type="text"
+                               class="bg-gray-100 font-[600] text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4"
+                               placeholder="Gắn link kênh truyền thông chính tại đây"
+                               name="MainMediaChannelLink"
+                               required />
+                    </div>
+
+                    <select class="bg-gray-100 font-[600] text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4 mb-5" name="ConversionMediaChannel">
+                        <option value="0">Kênh chuyển đổi hiện tại</option>
+                        <option value="1">Facebook</option>
+                        <option value="2">Instagram</option>
+                        <option value="3">Tiktok</option>
+                        <option value="4">Website</option>
+                        <option value="5">Điểm bán</option>
+                        <option value="6">Sàn TMDT</option>
+                    </select>
+
+                    <div class="mb-5">
+                        <input type="text"
+                               class="bg-gray-100 font-[600] text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4"
+                               placeholder="Gắn link kênh chuyển đổi chính tại đây"
+                               name="ConversionMediaChannelLink"
+                               required />
+                    </div>
+
+                    <button type="button"
+                            class="inline-flex rounded-3xl px-6 py-2 text-xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-[#031C72] to-[#3058E7]"
+                            id="survey-submit-btn"
+                    >
+                        ĐĂNG KÝ NGAY
+                    </button>
+                    <a  href="/plan/downloadprivacy" class="primary-color block">Privacy policy</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

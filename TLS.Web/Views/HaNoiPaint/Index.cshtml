@@ -1,0 +1,190 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using TLS.Web.Models
+@inject IViewLocalizer ViewLocalizer
+
+@section Headers{
+    <link href="~/css/hanoi-paint.css" rel="stylesheet" />
+    <title>Ha Noi Paint - Ego</title>
+}
+    <div class="hanoi-page max-width relative">
+        <section class="header">
+            <div class="row"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+            >
+                <div class="col-lg-5 col-md-12 col-12"></div>
+                <div class="col-lg-7 col-md-12 col-12">
+                    <h1>Ha Noi paint</h1>
+                </div>
+            </div>
+            <div class="row"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+            >
+                <div class="col-lg-5 col-md-12 col-12 padding-left">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6 col-6">
+                            <div class="title">SERVICES</div>
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-6">
+                            <div class="desc">
+                                <p>Event organization</p>
+                                <p>Event shooting</p>
+                                <p>Roadshow</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6 col-6">
+                            <div class="title">DESCRIPTION</div>
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-6">
+                            <div class="desc">
+                                <p>
+                                    @ViewLocalizer["hnpe1"]
+
+                                    
+
+                                </p>
+                                <p>
+                                    @ViewLocalizer["hnpe2"]
+
+                                   
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner">
+            <img src="~/EgoImages/hanoi_paint/b1.png" alt=""
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear" 
+             />
+            <div class="text text-center"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+            >
+                @ViewLocalizer["hnpe3"]
+
+                
+            </div>
+            <img src="~/EgoImages/hanoi_paint/b2.png" alt="" 
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear" 
+             />
+        </section>
+
+        <section class="three-product"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+        >
+            <div class="row">
+                <div class="col-4">
+                    <img src="~/EgoImages/hanoi_paint/three1.png" alt="" />
+                </div>
+                <div class="col-4">
+                    <img src="~/EgoImages/hanoi_paint/three2.png" alt="" />
+                </div>
+                <div class="col-4">
+                    <img src="~/EgoImages/hanoi_paint/three3.png" alt="" />
+                </div>
+            </div>
+
+            <div class="text"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+            >
+                @ViewLocalizer["hnpe4"]
+
+                
+
+            </div>
+        </section>
+
+        <section>
+            <img src="~/EgoImages/hanoi_paint/car.png" alt="" 
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+             />
+        </section>
+
+        <section class="two-product"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+        >
+            <div class="row">
+                <div class="col-6">
+                    <img src="~/EgoImages/hanoi_paint/theme1.png" alt="" />
+                </div>
+                <div class="col-6">
+                    <img src="~/EgoImages/hanoi_paint/theme2.png" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <section
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+        >
+            <img src="~/EgoImages/hanoi_paint/led_back.png" alt="" />
+        </section>
+
+        <section>
+            <div 
+             class="two-img"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+            >
+                <div>
+                    <img src="~/EgoImages/hanoi_paint/two1.png" alt="" />
+                </div>
+                <div>
+                    <img src="~/EgoImages/hanoi_paint/two2.png" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <section data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear">
+            <img src="~/EgoImages/hanoi_paint/b3.png" alt="" />
+        </section>
+
+        <section>
+            <div class="two-img"
+             data-aos="fade-up"
+             data-aos-duration="500"
+             data-aos-easing="linear"
+            >
+                <div>
+                    <img src="~/EgoImages/hanoi_paint/f1.png" alt="" />
+                </div>
+                <div>
+                    <img src="~/EgoImages/hanoi_paint/f2.png" alt="" />
+                </div>
+            </div>
+        </section>
+        <div class="max-width">
+            @await Html.PartialAsync("_PageNavigation",new NavigationModel(){
+        PreviousPagePath = "/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-marketing-da-kenh-nganh-thoi-trang",
+        NextPagePath = "/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-social-marketing-nganh-vat-lieu-xay-dung"
+        })
+        </div>
+</div>

@@ -1,0 +1,36 @@
+﻿.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.manrope-font {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.darker-grotesque-font {
+    font-family: "Darker Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+ 
+.primary-color {
+    color: #042496;
+}
+
+.mobile-menu.open {
+    display: block;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about1" xml:space="preserve">
+    <value>We</value>
+  </data>
+  <data name="about10" xml:space="preserve">
+    <value>Outsourced marketing</value>
+  </data>
+  <data name="about11" xml:space="preserve">
+    <value>To solve the short-term problems of businesses when implementing
+                            marketing, our outsourced package provides individual services
+                            that serve as an employee in a complete marketing machine. These
+                            individuals work according to the campaign you have set out with
+                            the best specialized quality.</value>
+  </data>
+  <data name="about12" xml:space="preserve">
+    <value>Multi-channel Marketing</value>
+  </data>
+  <data name="about13" xml:space="preserve">
+    <value>Each digital channel responds to a different set of customers,
+                            consistent with a different content approach. And We will
+                            optimize the reach channel, make the channel effective and
+                            measure the focus.</value>
+  </data>
+  <data name="about14" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="about15" xml:space="preserve">
+    <value>Media is an integral part of marketing, it conveys the brand's
+                            idea to their audience in an impressive and visually vivid way.
+                            Advertising campaigns are not only TVc, advertising photos,
+                            printed publications such as brochures, catalogs. And we do
+                            professional media with a creative and experienced team.</value>
+  </data>
+  <data name="about16" xml:space="preserve">
+    <value>WHAT WE LOOKING FOR?</value>
+  </data>
+  <data name="about17" xml:space="preserve">
+    <value>We are excited to work with creative open-minded people that have
+                        great ideas and innovative new projects. We’re selective about the
+                        people we work with because we know that building personal
+                        relationships of trust is important.</value>
+  </data>
+  <data name="about18" xml:space="preserve">
+    <value>We care about giving each project a personal and unique approach
+                        by working in small-scale teams that best meet each client and
+                        project’s needs. If you’re ready to work together, send us an
+                        email!</value>
+  </data>
+  <data name="about2" xml:space="preserve">
+    <value>love creating</value>
+  </data>
+  <data name="about3" xml:space="preserve">
+    <value>core value for each advertising</value>
+  </data>
+  <data name="about4" xml:space="preserve">
+    <value>WHO WE ARE?</value>
+  </data>
+  <data name="about5" xml:space="preserve">
+    <value>Our beginnings are people who do advertising design strategies,
+                        media images in many fields. With our experience in advertising
+                        strategy, we have helped startups, product launches, website -
+                        landing page promoting products, customer events and print
+                        publications. Not only do we create digital experiences, but we
+                        also create physical experiences at the point of sale that help
+                        the marketing - business transformation process numbers are
+                        comprehensive. &lt;br&gt; 
+We provide simple services but focus on the core of
+                        the problem, solve your problems, strategy suitable for the
+                        industry, the best image quality for the campaign, respect the
+                        deadline and optimal budget. We have faith that your core values
+                        ​​will serve your stature in the years to come. &lt;br&gt;
+ Each advertising
+                        campaign, whether short or long term, will be a story that tells
+                        who you are, how valuable your brand is. &lt;br&gt;
+               And we love creating core value for each advertising campaign, with the hope that each customer we have, each product we strategize will be a good project and have its own mark. We always try our best to
+ &lt;br&gt;
+best results for the project.</value>
+  </data>
+  <data name="about6" xml:space="preserve">
+    <value>WHAT WE DO?</value>
+  </data>
+  <data name="about7" xml:space="preserve">
+    <value>Marketing is a vast field and there are many goals that need to be
+                        accomplished to build a brand story, shape a brand in the minds of
+                        customers, and drive sales. We understand this better than anyone.
+                        And we offer the most focused services for marketing
+                        implementation in small and medium enterprises.</value>
+  </data>
+  <data name="about8" xml:space="preserve">
+    <value>Digital Strategy</value>
+  </data>
+  <data name="about9" xml:space="preserve">
+    <value>Each stage of your brand has its own marketing objective and ego
+                            offers a master plan, a blueprint to help your brand achieve its
+                            goals. We focus on spreading the value, the brand's own voice,
+                            the vital value of the brand.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>About - Ego</value>
+  </data>
+</root>

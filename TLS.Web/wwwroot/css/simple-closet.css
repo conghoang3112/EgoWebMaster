@@ -1,0 +1,132 @@
+﻿/* common */
+img {
+    width: 100%;
+    display: block;
+}
+
+section {
+    margin: 4rem 0;
+}
+
+.header {
+    font-size: 18px;
+}
+
+    .header h1 {
+        font-size: 98px;
+    }
+
+    .header .title {
+        margin-bottom: 2rem;
+    }
+/* common */
+
+.banner .text,
+.text-banner-2 {
+    font-size: 18px;
+    max-width: 70%;
+    margin: 2rem 4rem 2rem auto;
+}
+
+.section-two {
+    gap: 50px;
+}
+
+    .section-two > div {
+        flex: 1;
+    }
+
+    .section-two div:first-child img {
+        height: 100%;
+    }
+
+    .section-two div:last-child {
+        gap: 50px;
+    }
+
+.section-three .text,
+.section-four .text {
+    font-size: 18px;
+    max-width: 70%;
+    margin: 2rem 4rem 2rem auto;
+}
+
+.section-three .list-img .col-7 img {
+    height: 100%;
+}
+
+.section-three .list-img .col-5 img {
+    width: auto;
+}
+
+.section-three .list-img .col-5 div:nth-child(2) {
+    margin-right: 8rem;
+}
+
+.section-four > div:last-child .item:nth-child(2) {
+    margin: 5rem 2rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    /* common */
+    section {
+        margin: 3rem 0;
+    }
+
+    .header {
+        font-size: 12px;
+    }
+
+        .header h1 {
+            font-size: 30px;
+            margin: 0 0 3rem 0;
+        }
+
+        .header .title {
+            font-size: 18px;
+        }
+    /* common */
+
+    .banner .text,
+    .text-banner-2 {
+        font-size: 12px;
+        margin: 1rem 2rem;
+        max-width: 100%;
+    }
+
+    .section-two {
+        padding: 0 2rem;
+        flex-direction: column;
+    }
+
+        .section-two > div:last-child {
+            padding: 0 2.5rem;
+            gap: 20px;
+        }
+
+        .section-two div:last-child {
+            gap: 30px;
+        }
+
+    .section-three .text,
+    .section-four .text {
+        font-size: 12px;
+        margin: 1rem 0;
+        max-width: 100%;
+    }
+
+    .section-three .list-img {
+        gap: 30px;
+    }
+
+    .list-img > div:last-child {
+        gap: 2rem !important;
+        flex-direction: row !important;
+    }
+
+        .list-img > div:last-child div,
+        .list-img > div:last-child div img {
+            height: 100%;
+        }
+}
+

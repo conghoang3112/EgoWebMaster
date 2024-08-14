@@ -1,0 +1,123 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using System.Threading;
+@using TLS.Web.Resources
+@inject LocalizationService LocalizationService
+@inject IViewLocalizer ViewLocalizer
+
+<section class="footer" id="app-footer" style="max-width: 100%; margin: 0 auto;">
+    <div class="row">
+        @*     <div class="col-lg-6 col-md-12 col-12">
+        @if(Thread.CurrentThread.CurrentCulture.Name == "vi")
+        {
+        <div>
+        Đừng ngần ngại <br> kết nối với chúng tôi <br> để nhận tư vấn
+        </div>
+        }
+        else
+        {
+        <div class="h2">
+        you feel
+        <br />
+        <span class="primary-color"> interested </span>
+        </div>
+        }
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="right-footer">
+        <div class="row align-items-center">
+        <div class="col-4">
+        <div class="title">Reach us</div>
+        <div><a href="https://www.facebook.com/egoagency.vn">Facebook</a></div>
+        <div><a href="https://www.behance.net/agencyego">Behance</a></div>
+        </div>
+        <div class="col-4">
+        <div class="title">Meet us</div>
+        <div>@ViewLocalizer["ft3"]</div>
+        <div>@ViewLocalizer["ft4"]</div>
+        </div>
+        <div class="col-4">
+        <a href="/contact" class="link-redirect">
+        <img src="~/EgoImages/arrow.png" alt="" />
+        </a>
+        </div>
+        </div>
+        </div>
+        </div>*@
+
+
+        <div class="col-lg-4 col-md-12 col-12">
+            <div class="row align-items-end">
+                <div class="col-lg-4 col-12 my-2">
+                    <a href="">
+                        <img src="~/EgoImages/logo.png" class="footer-logo" style="max-width: 100px"/>  
+                    </a>
+                </div>
+                <div class="col-lg-8 col-12">
+                    <div class="row align-items-end">
+                        <div class="col-lg-4 col-12">
+                            <a href="/branding-markeitng-agency-hanoi"><p>About</p></a>
+                            <a href="/work"><p>Work</p></a>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <a href="/blog"><p>Blog</p></a>
+                            <a href="/contact"><p>Contact</p></a>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <p></p>
+                            <a href="/giai-phap-marketing-toan-dien"><p>Solution</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-12 col-12">
+            <div class="row gx-4">
+                <div class="col-lg-1 col-12"></div>
+                <div class="col-lg-3 col-12">
+                    <p class="font-heading">Reach us</p>
+                    <div class="d-flex gap-1">
+                        <a href="https://www.facebook.com/egoagency.vn" target="_blank">
+                            <img class="icon-footer" src="~/EgoImages/icon/facebook.png" style="max-width: 50px" />
+                        </a>
+                        <a href="https://www.instagram.com/ego_hellocreative/" target="_blank">
+                            <img class="icon-footer" src="~/EgoImages/icon/instagram.png" style="max-width: 50px" />
+                        </a>
+                        <a href="https://www.behance.net/agencyego" target="_blank">
+                            <img class="icon-footer" src="~/EgoImages/icon/be.png" style="max-width: 50px" />
+                        </a>
+                        <a href="https://www.youtube.com/@@easygo.creative" target="_blank">
+                            <img class="icon-footer" src="~/EgoImages/icon/youtube.png" style="max-width: 50px" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-12">
+                    <p class="font-heading">Meet us</p>
+                    <div class="d-flex">122 Vĩnh Tuy, Hai Bà Trưng, HN</div>
+                </div>
+
+                <div class="col-lg-2 col-12">
+                    <p class="font-heading">Call us</p>
+                    <div class="d-flex">0876280678</div>
+                </div>
+
+                <div class="col-lg-3 col-12">
+                    <p class="font-heading">Talk now</p>
+                    <div class="d-flex gap-2">
+                        <a href="https://zalo.me/2386571903158749416" target="_blank">
+                            <img class="icon-footer" src="~/EgoImages/icon/zalo.png" style="max-width: 50px" />
+                        </a>
+                        <a href="http://m.me/106072928680715" target="_blank">
+                            <img class="icon-footer" src="~/EgoImages/icon/messenger.png" style="max-width: 50px" />
+                        </a>
+                        <a href="" target="_blank">
+                            <img class="icon-footer" src="~/EgoImages/icon/email.png" style="max-width: 50px" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

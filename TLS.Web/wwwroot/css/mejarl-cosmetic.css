@@ -1,0 +1,76 @@
+﻿
+/* common */
+img {
+    width: 100%;
+    display: block;
+}
+
+section {
+    margin: 4rem 0;
+}
+
+.header {
+    font-size: 18px;
+}
+
+    .header h1 {
+        font-size: 98px;
+    }
+
+    .header .title {
+        margin-bottom: 2rem;
+    }
+
+/* banner */
+.banner .text {
+    max-width: 80%;
+    font-size: 18px;
+    margin: 0 0 0 auto;
+}
+
+.four-product .row {
+    margin: 0 -5rem;
+}
+
+.four-product .col-6 {
+    padding: 5rem;
+}
+
+@media screen and (max-width: 1160px) {
+    .four-product .row {
+        margin: 0 -2rem;
+    }
+
+    .four-product .col-6 {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 12px;
+    }
+
+        .header h1 {
+            font-size: 30px;
+            margin: 0 0 3rem 0;
+        }
+
+        .header .title {
+            font-size: 18px;
+        }
+
+    .banner .text {
+        max-width: 100%;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .four-product .row {
+        margin: 0 -10px;
+    }
+
+    .four-product .col-6 {
+        padding: 10px;
+    }
+}

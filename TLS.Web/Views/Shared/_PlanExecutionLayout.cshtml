@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Inter:wght@100..900&family=Manrope:wght@200..800&display=swap"
+          rel="stylesheet" />
+    <link href="~/css/plan-layout.css" rel="stylesheet" />
+    <title>Triển khai thực thi truyền thông</title>
+    @*Keep*@
+    <meta name="google-site-verification" content="-97oijCzFGZ1c1R6FCvL3B9eSum-i3UdV6JES7UTwd0" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JCNX65K0N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5JCNX65K0N');
+    </script>
+    @RenderSection("Headers", required: false)
+</head>
+<body id="kt_body" class="header-tablet-and-mobile-fixed aside-enabled">
+    <header class="max-w-[1360px] lg:mx-auto mx-5 py-4 text-center">
+        <a href="/" class="-m-1.5 p-1.5 inline-flex text-center">
+            <span class="sr-only">LogoYour Company</span>
+            <img class="w-auto lg:h-auto h-12"
+                 src="/EgoImages/plan/logoHeader.svg"
+                 alt="" />
+        </a>
+        <div class="primary-color font-semibold darker-grotesque-font text-md -mt-3">
+            One choice for full value
+        </div>
+    </header>
+
+    <div class="darker-grotesque-font lg:bg-[url('/EgoImages/plan/plan-execution-bg.png')] bg-[url('/EgoImages/plan/plan-execution-bg-mobile.png')] lg:bg-white bg-blue-100 bg-cover bg-center bg-center text-center py-6">
+        <div class="max-w-[1360px] lg:mx-auto mx-5">
+            <div class="text-[40px] primary-color font-black darker-grotesque-font">
+                HOẠCH ĐỊNH
+            </div>
+            <div class="text-[40px] primary-color font-black darker-grotesque-font -mt-4">
+                THỰC THI
+            </div>
+
+            <div class="text-[15px] inter-font max-w-sm mx-auto">
+                Từ dữ liệu ngân sách, chúng tôi sẽ đưa ra bản kế hoạch thực thi chi
+                tiết 1 tháng & báo giá.
+            </div>
+
+            <div>
+                <div class="primary-color text-[15px] inter-font mt-8 mb-2">
+                    Nhập thông tin để hiện thực hóa chiến lược
+                </div>
+                <form class="max-w-md mx-auto text-center" id="plan-execution-form">
+                    <div class="bg-white p-4 rounded-lg">
+                        <div class="mb-5">
+                            <input type="tel"
+                                   class="bg-gray-100 font-[600] text-xl rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4"
+                                   placeholder="Số điện thoại"
+                                   name="PhoneNumber"
+                                   required />
+                        </div>
+                        <div class="mb-5">
+                            <input type="text"
+                                   class="bg-gray-100 font-[600] text-xl rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4"
+                                   placeholder="Tên công ty/Thương hiệu"
+                                   name="CompanyName"
+                                   required />
+                        </div>
+                        <div class="mb-5">
+                            <input type="text"
+                                   class="bg-gray-100 font-[600] text-xl rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 py-4"
+                                   placeholder="Ngân sách sự kiến"
+                                   name="Budget"
+                                   required />
+                        </div>
+                    </div>
+                    <button type="button" id="plan-exe-submit-btn"
+                            class="inline-flex w-[200px] justify-center mt-6 rounded-3xl px-6 py-2 text-xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 bg-gradient-to-r from-[#031C72] to-[#3058E7]">
+                        GỬI THÔNG TIN
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-black">
+        <div class="max-w-[1360px] lg:mx-auto mx-5 py-2 text-center">
+            <div class="text-md text-white darker-grotesque-font">
+                2024 All rights reserved Ego Agency
+            </div>
+        </div>
+    </footer>
+
+
+    @RenderBody()
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="~/js/site/plan-execution-layout.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

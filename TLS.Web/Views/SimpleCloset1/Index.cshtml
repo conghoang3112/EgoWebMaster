@@ -1,0 +1,373 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using TLS.Web.Models
+@inject IViewLocalizer ViewLocalizer
+@section Headers{
+    <title>Simple Closet - Ego</title>
+    <link href="~/css/simple-closet-1.css" rel="stylesheet" />
+}
+<div class="simple-page">
+    <section class="header max-width">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-12"></div>
+            <div class="col-lg-8 col-md-12 col-12">
+                <h1>Simple closet</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="row padding-left">
+                    <div class="col-lg-12 col-md-6 col-6">
+                        <div class="title">SERVICES</div>
+                    </div>
+                    <div class="col-lg-12 col-md-6 col-6">
+                        <div class="desc">
+                            <p>Branding</p>
+                            <p>Campain</p>
+                            <p>Photoshoot</p>
+                            <p>Packaging</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12">
+                <div class="row">
+                    <div class="col-lg-12 col-12">
+                        <div class="title">DESCRIPTION</div>
+                    </div>
+                    <div class="col-lg-12 col-12">
+                        <div class="desc font-32">
+                            <p>
+                                Simple - Tối ưu Fanpage: Tăng 142,4% lượt bắt đầu trò chuyện
+                                qua tin nhắn bằng cách tối ưu lại nội dung và hình ảnh phù
+                                hợp hơn với khách hàng tiềm năng
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <p class="font-32">1. Bối cảnh</p>
+                    <p>
+                        Simple là thương hiệu thời trang công sở dành cho nữ thiết kế.
+                        Có mặt trên thị trường từ năm 2019. Tuy nhiên, với tình hình suy
+                        thoái kinh tế cùng với sự cạnh tranh càng ngày càng khốc liệt
+                        của các thương hiệu thời trang nội địa khác đã tạo ra một thách
+                        thức không nhỏ với Simple Closet. Nhất là trong bối cảnh phải
+                        cân bằng giữa chi phí duy trì và phát marketing và giảm chi phí
+                        vận hành, giữ nguyên mức doanh thu, qua đó tăng trưởng vượt khó
+                        khăn trong thời ky suy thoái.
+                    </p>
+                </div>
+
+                <div class="row mt-5">
+                    <p class="font-32">2. Triển khai</p>
+                    <p>
+                        Ngay khi tiếp nhận Fanpage từ phía đối tác, chúng tôi đã tiến
+                        hành khảo sát thực trạng fanpage hiện tại. Xác định rõ đối tượng
+                        khách hàng tiềm năng, nhu cầu và mong muốn tiếp nhận thông tin
+                        của họ. Đồng thời xác lập lại vai trò của Fanpage trong hành
+                        trình chuyển đổi của khách hàng.
+                    </p>
+                    <p>
+                        Sau quá trình khảo sát khách hàng tiềm năng, chúng tôi nhận
+                        thấy:
+                    </p>
+                    <p>
+                        1. Độ tuổi khách hàng tiềm năng chủ yếu là nữ, chủ yếu ở thị
+                        trường tỉnh, độ tuổi 35 - 55. Khách hàng thường có quyết định
+                        mua hàng khi nhìn thấy hình ảnh sát với thực tế, thân thiện và
+                        chân thực. Thời gian online của tệp Khách tiềm năng thường xuyên
+                        vào khung giờ 11 - 12h sáng; 16 - 17h chiều, 21-23h tối
+                    </p>
+                    <p>
+                        2. Cùng với đó, chúng tôi cũng xác lập lại vai trò của fanpage
+                        trong hành trình chuyển đổi khách hàng như sau:
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="role-fanpage">
+            <div class="circle">
+                Tiếp cận hình ảnh về sản phẩm ( điểm chạm đầu tiên)
+            </div>
+            <div class="arrow">
+                <img src="~/EgoImages/closet/arrow.png" />
+            </div>
+            <div class="circle">
+                Sau đó họ sẽ bình luận hoặc nhắn tin để được nhân viên tư vấn kỹ hơn
+                về size cũng như các phương thức thanh toán, giao nhân
+            </div>
+            <div class="arrow">
+                <img src="~/EgoImages/closet/arrow.png" />
+            </div>
+            <div class="circle circle-blue">
+                Đội ngũ tư vấn sẽ nói chuyên trực tiếp tư vấn và gửi thêm hình ảnh
+                hoặc các khuyến mãi dành riêng để tăng tỷ lệ chuyên đổi
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-12"></div>
+            <div class="col-lg-8 col-md-12 col-12">
+                <div>
+                    <p>
+                        3. Như vậy, fanpage sẽ là điểm chạm đầu tiên trong hành trình
+                        chuyển đổi. Ngay khi xác định được vai trò của Fanpage trong
+                        hành trình chuyển đổi, chúng tôi lập tức bắt tay vào tối ưu để
+                        tối ưu lượng khách hàng quan tâm qua nội dung và thông điệp đăng
+                        tải thông qua một số yếu tố sau:
+                    </p>
+                    <div>
+                        3.1. Nhân khẩu học: Khách hàng tiềm năng độ tuổi chủ yếu từ 35 -
+                        55, giới tính nữ, chủ yếu là khách hàng tỉnh. Đã có gia đình,
+                        làm công việc công sở, nhân viên văn phòng. Thu nhập trung bình
+                        khá.
+                    </div>
+                    <p>
+                        3.2. Hành vi: Thời gian online của tệp Khách tiềm năng thường
+                        xuyên vào khung giờ 11 - 12h sáng; 16 - 17h chiều. Mua sắm
+                        online dựa trên góc nhìn thực tế của sản phẩm.
+                    </p>
+                    <p>=> Vì vậy, chúng tôi đã thay đổi tuyến nội dung đăng tải:</p>
+                    <div>
+                        * Tập trung chủ yếu vào các hình ảnh thực tế của sản phẩm. Người
+                        mẫu cũng được thay đổi để giống với form dáng Trung bình của nữ
+                        giới độ tuổi trên (thay vì sử dụng mẫu có số đo, chiều cao
+                        chuẩn). Các bối cảnh thay vì chụp trong studio chuyển thành chụp
+                        bên ngoài đường phố => Tạo cảm giác thân thuộc, thực tế và đáng
+                        tin cậy hơn trong mắt khách hàng tiềm năng ở điểm chạm đầu tiên.
+                    </div>
+                    <p>
+                        * Thay đổi khung giờ đăng tải tập trung vào các khung giờ 1 -
+                        12h sáng; 16 - 17h chiều, 21-23h tối.
+                    </p>
+                    <p>
+                        Nhưng để có thể chắt lọc những mess đổ thực sự chất lượng - là
+                        những khách hàng sẽ hỏi và có nhu cầu chốt đơn hàng cao, EGO đã
+                        phối hợp cùng khách hàng để thực hiện 3 best practices dưới đây.
+                    </p>
+                    <div>
+                        1. Phối hợp chặt chẽ giữa khách hàng và agency: Khách hàng của
+                        EGO là người nắm rõ nhất về insight của khách hàng tiềm năng.
+                        Nên chúng tôi đã thường xuyên có những trao đổi, bổ sung, gặp
+                        mặt hàng tuần để tìm ra insigh tốt và tối ưu nội dung quảng cáo.
+                    </div>
+                    <div>
+                        2. Xây dựng niềm tin, uy tín cho nhãn hàng: Ngoài các tuyến bài
+                        về giới thiệu sản phẩm, chúng tôi cũng đẩy mạnh các tuyến bài để
+                        gia tăng niềm tin của khách hàng tiềm năng như: tuyến bài thương
+                        hiệu, feedback, tuyến bài về quá trình sản xuất, minigame, tặng
+                        quà …
+                    </div>
+                    <div>
+                        3. Theo dõi chỉ số thường xuyên để tối ưu nội dung và kịp thời
+                        thích nghi: Tất cả mọi phán đoán đều có một tỷ lệ sai số nhất
+                        định. Chúng tôi thường xuyên cập nhật chỉ số từ nền tảng để nắm
+                        bắt hành vi của khách hàng tiềm năng, từ đó kịp thời thay đổi,
+                        giảm thiểu tổn thất hiệu suất thời gian.
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <p class="font-32">3. Kết quả</p>
+                    <p class="mb-5">
+                        Sau 1 năm triển khai tối ưu Fanpage. chúng tôi đã đạt được những
+                        kết quả khả quan:
+                    </p>
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-6">
+                            <p>Lượt bắt đầu trò chuyên tăng</p>
+                        </div>
+                        <div class="col-lg-8 col-6"><p class="font-32">142.4%</p></div>
+                        <div class="col-lg-4 col-6"><p>Tỷ lệ chuyên đổi đạt</p></div>
+                        <div class="col-lg-8 col-6"><p class="font-32">32.4%</p></div>
+                        <div class="col-lg-4 col-6"><p>Lượt tiếp cận tăng</p></div>
+                        <div class="col-lg-8 col-6"><p class="font-32">625.5%</p></div>
+                        <div class="col-lg-4 col-6">
+                            <p>Lượt truy cập trang tăng</p>
+                        </div>
+                        <div class="col-lg-8 col-6"><p class="font-32">215.9%</p></div>
+                    </div>
+                    <p>
+                        Từ đó giúp thương hiệu tăng trưởng ngoạn mục, và phát triển thêm
+                        2 cơ sở mới trong năm 2023.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <img src="~/EgoImages/closet/b1.png" alt="" />
+    </section>
+
+    <section>
+        <div class="max-width">
+            <div class="d-flex section-two">
+                <div>
+                    <img src="~/EgoImages/closet/a1.png" alt="" />
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="~/EgoImages/closet/a2.png" alt="" />
+                        </div>
+                        <div class="col-12">
+                            <img src="~/EgoImages/closet/a3.png" alt="" />
+                        </div>
+                        <div class="col-12">
+                            <img src="~/EgoImages/closet/a4.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <img src="~/EgoImages/closet/b2.png" alt="" />
+    </section>
+
+    <section>
+        <div class="max-width section-three">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12"></div>
+                <div class="col-lg-8 col-md-12 col-12">
+                    <p class="font-32 pb-5">
+                        Simple - Tối ưu kênh Tiktok: Đạt 2,8 triệu lượt xem, tỷ lệ quan
+                        tâm đến sản phẩm thông qua bình luận đạt 14,2 % ( 400.000 lượt
+                        bình luận) nhờ chiến lược xây dựng thương hiệu cá nhân phù hợp.
+                    </p>
+                    <div class="my-5">
+                        <p class="font-32">1. Bối cảnh</p>
+                        <div>
+                            Simple là thương hiệu thời trang công sở dành cho nữ thiết kế.
+                            Có mặt trên thị trường từ năm 2019. Tuy nhiên, với tình hình
+                            suy thoái kinh tế cùng với sự cạnh tranh càng ngày càng khốc
+                            liệt của các thương hiệu thời trang nội địa khác đã tạo ra một
+                            thách thức không nhỏ với Simple Closet. Nhất là trong bối cảnh
+                            phải cân bằng giữa chi phí duy trì và phát marketing và giảm
+                            chi phí vận hành, giữ nguyên mức doanh thu, qua đó tăng trưởng
+                            vượt khó khăn trong thời ky suy thoái. Với nền tảng Tiktok,
+                            ngành hàng thời trang là một ngành hàng đã có phần bão hòa nội
+                            dung. Việc xâm nhập nền tảng trong thời kỳ bão hòa là một
+                            thách thức không nhỏ.
+                        </div>
+                    </div>
+                    <div class="my-5">
+                        <p class="font-32">2. Chiến lược</p>
+                        <div>
+                            Thay vì xây kênh thương hiệu trên nền tảng, chúng tôi chọn
+                            chiến lược xây dựng kênh thương hiệu cá nhân. Điểm khác biệt
+                            là chúng tôi chọn 1 hình tượng đại diện cho cộng đồng khách
+                            hàng tiềm năng để tạo sự thân thiện và thân thuộc. Tên kênh
+                            chibeocongso (Chị béo công sở) vừa giúp khách hàng tiềm năng
+                            có điểm chạm, cảm giác được thuộc về, vừa định vị ngay nội
+                            dung thông tin chủ đạo trên kênh. Chiến lược này giúp khách
+                            hàng tiếp cận với sản phẩm, thương hiệu một cách tự nhiên và
+                            cảm thấy “được thuộc về” nhiều hơn.
+                        </div>
+                    </div>
+                    <div class="my-5">
+                        <p class="font-32">3. Triển khai</p>
+                        <div>
+                            Chúng tôi đã tiến hành phân tích thị hiếu và nhu cầu thông
+                            tin, tiến hành xác định vòng tuần hoàn nội dung của ngành hàng
+                            trên Tiktok, xác định insight khách hàng mục tiêu. Từ đó đưa
+                            ra concept kênh theo dạng tư vấn chọn trang phục cho chị em,
+                            đồng thời gián tiếp giới thiệu trang phục xuất hiện trong
+                            video một cách tự nhiên và gần gũi.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="role-fanpage">
+                <div class="circle">
+                    Phân tích insight khách hang, nhu cầu thông tin của khách hang
+                    tiềm năng
+                </div>
+                <div class="arrow">
+                    <img src="~/EgoImages/closet/arrow.png" />
+                </div>
+                <div class="circle">
+                    Phân tích vòng tuần hoàn content của ngành hang thời trang trên
+                    Tiktok
+                </div>
+                <div class="arrow">
+                    <img src="~/EgoImages/closet/arrow.png" />
+                </div>
+                <div class="circle circle-blue">Xác định concept tư vấn</div>
+            </div>
+            <div class="row hidden-mobile my-5">
+                <div class="col-lg-5 col-md-5">
+                    <p class="circle-transparent mt-3">
+                        Độ tuổi: 35-45 Phụ nữ công sở , đã sinh con Có thu nhập ổn định
+                        Có một số khuyết điểm do thời gian, sinh nở ...
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 p-0">
+                    <p class="circle-transparent mt-3">
+                        Dạng content Thời trang đã bão hòa, cần có yếu tố highlight
+                        trong tuyển nội dung trên kênh. Kết hợp với tính cách thực tế
+                        của chủ thường hiệu => Chị béo công sở, vui vẻ, thân thiện và
+                        nhiều năng lượng.
+                    </p>
+                </div>
+            </div>
+            <div class="row list-img">
+                <div class="col-lg-7 col-md-12 col-12">
+                    <img src="~/EgoImages/closet/c1.png" alt="" />
+                </div>
+                <div class="col-lg-5 col-md-12 col-12 d-flex flex-column align-items-end gap-5">
+                    <div>
+                        <img src="~/EgoImages/closet/c2.png" alt="" />
+                    </div>
+                    <div>
+                        <img src="~/EgoImages/closet/c3.png" alt="" />
+                    </div>
+                    <div>
+                        <img src="~/EgoImages/closet/c4.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="max-width section-four">
+            <div class="row">
+                <div class="col-lg-4 col-12"></div>
+                <div class="col-lg-8 col-12">
+                    <p class="font-32">4.Kết quả</p>
+                    <p>
+                        Sau 6 tháng triển khai, nhờ các bước triển khai linh hoạt, chiến
+                        lược phù hợp và sự phối hợp ăn ý giữa Khách hàng và Agency. Dự
+                        án đã có được những kết quả khả quan, từng bước xây dựng một
+                        kênh có lượng traffic tốt mà không bị phụ thuộc quá nhiều vào
+                        quảng cáo trả phí. Chi tiết kế quả bao gồm:
+                    </p>
+                </div>
+            </div>
+            <div class="role-fanpage">
+                <div class="circle circle-blue">
+                    <div class="font-32">2.8 triệu</div>
+                    <div>lượt xem</div>
+                </div>
+                <div class="circle circle-blue">
+                    <div class="font-32">400.000</div>
+                    <div>lượt bình luận</div>
+                </div>
+                <div class="circle circle-blue">
+                    <div>Tối ưu</div>
+                    <div class="font-32">30%</div>
+                    <div>chi phí quảng cáo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="max-width">
+        @await Html.PartialAsync("_PageNavigation",new NavigationModel(){
+        PreviousPagePath = "/du-an/thiet-ke-bo-nhan-dien-trung-tam-tieng-anh",
+        NextPagePath = "/du-an/tang-chuyen-doi-doanh-thu-nho-trien-khai-remarketing-su-kien-nganh-vat-lieu-xay-dung"
+        })
+    </div>
+</div>

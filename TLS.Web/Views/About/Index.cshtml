@@ -1,0 +1,240 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using TLS.Web.Resources
+@inject LocalizationService LocalizationService
+@inject IViewLocalizer ViewLocalizer
+
+@section Headers{
+    <link href="~/css/about.css" rel="stylesheet" />
+    <title>@ViewLocalizer["Title"]</title>
+}
+
+<div class="about-page">
+    <section class="section-about black-color bg-white">
+        <div class="max-width">
+            <div>
+                <p class="heading font-heading primary-color">VỀ CHÚNG TÔI</p>
+                <div class="row gy-3">
+                    <div class="col-lg-5 col-12">
+                        Chúng tôi tập trung cung cấp giải pháp Xây dựng thương hiệu & chiến lược marketing toàn diện cho các doanh nghiệp khởi sự cần tác động lớn.
+                    </div>
+                    <div class="col-lg-7 col-12">
+                        Từng có cơ hội làm việc với những thường hiệu lớn, những agency mạnh mẽ về ý tưởng Marketing, chúng tôi không ngừng nỗ lực để trở nên hoàn thiện.
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <p class="heading font-heading primary-color">
+                    Tại sao là cái tên EGO?
+                </p>
+                <div class="row gy-3">
+                    <div class="col-lg-5 col-12">
+                        EGO - viết tắt của cụm từ EASY!Go.
+                        <br />
+                        Kinh doanh là một con đường dài và đầy khó khăn với mọi chủ doanh
+                        nghiệp. Nhưng đến với kinh doanh là những con người chấp nhận mọi
+                        rủi ro và thách thức.
+                        <br />
+                        Chúng tôi muốn là một phần động lực cho những chủ doanh nghiệp.
+                        <br />
+                        Chúng tôi muốn là người đồng hành cùng chủ doanh nghiệp và tạo ra
+                        lối đi dễ dàng hơn.
+                    </div>
+                    <div class="col-lg-7 col-12">
+                        <img src="~/EgoImages/about/small-business.png"
+                             alt="img small business" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-power pt-3 max-width">
+        <div class="row pb-5">
+            <div class="col-lg-4 col-12"></div>
+            <div class="col-lg-8 col-12">
+                <img src="~/EgoImages/about/big-effort.png" />
+            </div>
+        </div>
+        <div>
+            <p class="font-heading mt-5 mb-5">
+                SỨC MẠNH ĐẾN TỪ NHỮNG GIÁ TRỊ CỐT LÕI
+                <br />
+                CHÚNG TÔI LUÔN NỖ LỰC VUN BỒI
+            </p>
+            <div class="row">
+                <div class="col-lg-3 col-12"></div>
+                <div class="col-lg-8 col-12">
+                    <div class="mb-5">
+                        <div class="mb-1">01</div>
+                        <div class="font-heading mb-3">Sáng tạo</div>
+                        <div class="desc">
+                            EGO là agency cung cấp các giải pháp xây dựng chiến lược
+                            thương hiệu & chiến lược tiếp thị cho những doanh nghiệp khởi
+                            sự, quy mô vừa & nhỏ. Với mục tiêu xây dựng doanh số bền vững
+                            dựa trên sức mạnh của thương hiệu.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-12"></div>
+                <div class="col-lg-8 col-12">
+                    <div class="mb-5">
+                        <div class="mb-1">02</div>
+                        <div class="font-heading mb-3">Phụng sự cầu thị</div>
+                        <div class="desc">
+                            EGO là agency cung cấp các giải pháp xây dựng chiến lược
+                            thương hiệu & chiến lược tiếp thị cho những doanh nghiệp khởi
+                            sự, quy mô vừa & nhỏ. Với mục tiêu xây dựng doanh số bền vững
+                            dựa trên sức mạnh của thương hiệu.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-12"></div>
+                <div class="col-lg-8 col-12">
+                    <div class="mb-5">
+                        <div class="mb-1">03</div>
+                        <div class="font-heading mb-3">
+                            Tạo ra giá trị kế thừa & phát triển bền vững
+                        </div>
+                        <div class="desc">
+                            EGO là agency cung cấp các giải pháp xây dựng chiến lược
+                            thương hiệu & chiến lược tiếp thị cho những doanh nghiệp khởi
+                            sự, quy mô vừa & nhỏ. Với mục tiêu xây dựng doanh số bền vững
+                            dựa trên sức mạnh của thương hiệu.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cooperate max-width">
+        <p class="title color-gray">
+            Chúng tôi muốn hợp tác với khách hàng thông qua
+            <span class="primary-color">
+                một tầm nhìn chung, cùng một tham vọng.
+            </span>
+        </p>
+
+        <div class="mb-5 pb-5">
+            <div>Dịch vụ</div>
+            <p class="color-gray">
+                Các dịch vụ phù hợp với toàn bộ nhu cầu theo mức độ phát triển của
+                doanh nghiệp.
+                <br />
+                Từ khi bắt đầu đến khi mở rộng kinh doanh cần chuyên môn hóa
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-12"></div>
+            <div class="col-lg-7 col-12">
+                <div class="row gy-5">
+                    <div class="col-lg-6 col-12">
+                        <p class="mb-1">01</p>
+                        <a class="font-heading white-color" href="/giai-phap-marketing-toan-dien/thiet-ke-thuong-hieu-tron-goi-ha-noi">
+                            Giải pháp toàn diện cho doanh nghiệp khởi sự - Easy go
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <p class="mb-1">02</p>
+                        <a class="font-heading white-color" href="/giai-phap-marketing-toan-dien/toi-uu-nen-tang-social-marketing-toan-dien">
+                            Tối ưu các nền tảng truyền thông sở hữu
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <p class="mb-1">03</p>
+                        <a class="font-heading white-color" href="/giai-phap-marketing-toan-dien/video-marketing-tron-goi-ha-noi">
+                            Giải pháp sản xuất video ngắn chuyên sâu Etik Production
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <p class="mb-1">04</p>
+                        <a class="font-heading white-color" href="/giai-phap-marketing-toan-dien/nhan-su-marketing-thue-ngoai-ha-noi">Phòng Marketing thuê ngoài</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div class="d-flex h-100 justify-content-center align-items-center">
+                    <a class="link-redirect" href="/giai-phap-marketing-toan-dien">
+                        <img src="~/EgoImages/arrow.png" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-number py-5 max-width">
+        <div class="row">
+            <div class="col-lg-3 col-12">
+                Kể từ khi ký kết hợp tác, chúng tôi bắt tay ngay vào việc triển khai
+                các hang mục. Đảm bảo mục tiêu của doanh nghiệp.
+            </div>
+            <div class="col-lg-9 col-12"></div>
+            <div class="col-lg-7 col-12">
+                <img src="~/EgoImages/about/circlee.png" />
+            </div>
+            <div class="col-lg-5 col-12 d-flex align-items-center">
+                Tăng trưởng tương tác tự nhiên
+            </div>
+            <div class="col-lg-2 col-12"></div>
+            <div class="col-lg-3 col-12">
+                1 kế hoạch PHÙ HỢP : ngân sách, mục tiêu của thương hiệu, nhu cầu
+                của thị trường.
+            </div>
+            <div class="col-lg-7 col-12"></div>
+        </div>
+    </section>
+
+    <section class="section-video py-5 max-width">
+        <div class="row gx-5">
+            <div class="col-lg-7 col-12">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OSX8rlw8lGo?si=Csao3aD-0s6Y3HpR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-5 col-12">
+                <p class="font-heading">Chúng tôi luôn tìm kiếm</p>
+                <p>
+                    Chúng tôi rất háo hức khi được làm việc với những người cởi mở
+                    sáng tạo có ý tưởng tuyệt vời và những dự án mới sáng tạo. Chúng
+                    tôi chọn lọc những người mà chúng tôi làm việc cùng vì chúng tôi
+                    biết rằng việc xây dựng các mối quan hệ tin cậy cá nhân là rất
+                    quan trọng.
+                    <br />
+                    <br />
+                    Chúng tôi quan tâm đến việc cung cấp cho mỗi dự án một cách tiếp
+                    cận cá nhân độc đáo bằng cách làm việc trong các nhóm quy mô nhỏ
+                    đáp ứng tốt nhất nhu cầu của từng khách hàng và dự án.
+                    <br />
+                    <br />
+                    Nếu bạn đã sẵn sàng làm việc cùng nhau, hãy gửi email cho chúng
+                    tôi!
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="font-heading primary-color">Gia nhập đội ngũ</div>
+                    <a href=""><img src="~/EgoImages/about/arrow-blue.png" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-form py-5 max-width">
+        <div class="row">
+            <div class="col-lg-6 col-12"></div>
+            <div class="col-lg-4 col-12 mb-2">
+                <img src="~/EgoImages/about/connect.png" />
+            </div>
+            <div class="col-lg-2 col-12"></div>
+            <div class="col-lg-7 col-12 title">Để cùng làm việc</div>
+            <div class="col-lg-5 col-12">
+                <div class="form-mobile">
+                    <partial name="_ContactInputForm"></partial>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+@section Scripts{
+    <script>
+    </script>
+}
