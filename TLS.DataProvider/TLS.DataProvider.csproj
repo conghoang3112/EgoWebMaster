@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20230729050115_dbv3.cs" />
+    <Compile Remove="Migrations\20230729050115_dbv3.Designer.cs" />
+    <Compile Remove="Migrations\20240310032829_dbv5.cs" />
+    <Compile Remove="Migrations\20240310032829_dbv5.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.24" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.24" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TLS.Common\TLS.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Catalog\**" />
+    <EmbeddedResource Remove="Catalog\**" />
+    <None Remove="Catalog\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TLS.DataProvider\TLS.DataProvider.csproj" />
+    <ProjectReference Include="..\TLS.ViewModels\TLS.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

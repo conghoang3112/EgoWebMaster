@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using TLS.ViewModels.Common;
+
+namespace TLS.ViewModels.News
+{
+    public class SiteNewsPageRequest : PagedRequestBase
+    {
+        public string Tag { get; set; }
+    }
+}
